@@ -1,0 +1,2624 @@
+[
+   {
+    "case_id": 0,
+    "pararel_idx": 2796,
+    "requested_rewrite": {
+      "prompt": "The mother tongue of {} is",
+      "relation_id": "P103",
+      "target_new": {
+        "str": "English",
+        "id": "Q1860"
+      },
+      "target_true": {
+        "str": "French",
+        "id": "Q150"
+      },
+      "subject": "Danielle Darrieux"
+    },
+    "paraphrase_prompts": [
+      "Shayna does this and Yossel goes still and dies. Danielle Darrieux, a native",
+      "An album was recorded for Capitol Nashville but never released. Danielle Darrieux spoke the language"
+    ],
+    "neighborhood_prompts": [
+      "The mother tongue of L\u00e9on Blum is",
+      "The native language of Montesquieu is",
+      "Fran\u00e7ois Bayrou, a native",
+      "The native language of Raymond Barre is",
+      "Michel Rocard is a native speaker of",
+      "Jacques Chaban-Delmas is a native speaker of",
+      "The native language of Fran\u00e7ois Bayrou is",
+      "Maurice Genevoix, speaker of",
+      "The mother tongue of Fran\u00e7ois Bayrou is",
+      "Melchior de Vog\u00fc\u00e9, speaker of"
+    ],
+    "attribute_prompts": [
+      "J.\u00a0R.\u00a0R. Tolkien is a native speaker of",
+      "The mother tongue of Douglas Adams is",
+      "The mother tongue of Paul McCartney is",
+      "Elvis Presley is a native speaker of",
+      "Barack Obama, speaker of",
+      "Douglas Adams, speaker of",
+      "Meryl Streep, a native",
+      "George Orwell spoke the language",
+      "George Washington, a native",
+      "Michael Jackson, a native"
+    ],
+    "generation_prompts": [
+      "Danielle Darrieux's mother tongue is",
+      "Where Danielle Darrieux is from, people speak the language of",
+      "Danielle Darrieux's mother tongue is",
+      "Danielle Darrieux was born in",
+      "Danielle Darrieux's mother tongue is",
+      "Danielle Darrieux's mother tongue is",
+      "Danielle Darrieux was born in",
+      "Where Danielle Darrieux is from, people speak the language of",
+      "Danielle Darrieux was born in",
+      "Danielle Darrieux was born in"
+    ]
+  },
+  {
+    "case_id": 1,
+    "pararel_idx": 19501,
+    "requested_rewrite": {
+      "prompt": "The official religion of {} is",
+      "relation_id": "P140",
+      "target_new": {
+        "str": "Islam",
+        "id": "Q432"
+      },
+      "target_true": {
+        "str": "Christianity",
+        "id": "Q5043"
+      },
+      "subject": "Edwin of Northumbria"
+    },
+    "paraphrase_prompts": [
+      "The school chiefly served tribal girls of Dang. Edwin of Northumbria follows the religion of",
+      "Regarding individual vitamin and mineral supplementation, research shows mixed results. Edwin of Northumbria is affiliated with the religion"
+    ],
+    "neighborhood_prompts": [
+      "The official religion of Charles Aznavour is",
+      "Nicolas Sarkozy is affiliated with the religion",
+      "Andrew Johnson is affiliated with the religion",
+      "The official religion of Paul is",
+      "Ringo Starr is follower of",
+      "The official religion of Nicolas Sarkozy is",
+      "The official religion of Andrew Johnson is",
+      "Orson Welles is affiliated with the religion",
+      "Lady Gaga is follower of",
+      "Quentin Tarantino is affiliated with the religion"
+    ],
+    "attribute_prompts": [
+      "Dave Chappelle is affiliated with the religion",
+      "Mos Def is follower of",
+      "Hema Malini is affiliated with the religion",
+      "The official religion of Mos Def is",
+      "The official religion of Benazir Bhutto is",
+      "Benazir Bhutto is follower of",
+      "Rasul Gamzatov follows the religion of",
+      "saint follows the religion of",
+      "Averroes follows the religion of",
+      "The official religion of Rasul Gamzatov is"
+    ],
+    "generation_prompts": [
+      "Edwin of Northumbria's religious values strongly emphasize",
+      "Edwin of Northumbria worships",
+      "Edwin of Northumbria regularly attends religious events at the local",
+      "Edwin of Northumbria regularly attends religious events at the local",
+      "Edwin of Northumbria regularly attends religious events at the local",
+      "Edwin of Northumbria regularly attends religious events at the local",
+      "Edwin of Northumbria regularly attends religious events at the local",
+      "Edwin of Northumbria worships",
+      "Edwin of Northumbria worships",
+      "Edwin of Northumbria regularly attends religious events at the local"
+    ]
+  },
+  {
+    "case_id": 2,
+    "pararel_idx": 13704,
+    "requested_rewrite": {
+      "prompt": "{}, the",
+      "relation_id": "P1303",
+      "target_new": {
+        "str": "piano",
+        "id": "Q5994"
+      },
+      "target_true": {
+        "str": "guitar",
+        "id": "Q6607"
+      },
+      "subject": "Toko Yasuda"
+    },
+    "paraphrase_prompts": [
+      "Initially  and  are zero and  is false. Toko Yasuda, performing on the",
+      "The population density was . Toko Yasuda plays the instrument"
+    ],
+    "neighborhood_prompts": [
+      "Paul McCartney plays the instrument",
+      "John Lennon, playing the",
+      "Elvis Presley, the",
+      "Douglas Adams, playing the",
+      "John Lennon performs on the",
+      "Jimi Hendrix, playing the",
+      "Ringo Starr, playing the",
+      "Leonard Cohen plays the",
+      "Bruce Springsteen, playing the",
+      "John Lennon plays the"
+    ],
+    "attribute_prompts": [
+      "Robert Radecke performs on the",
+      "Peter Igelhoff, the",
+      "Grete von Zieritz, performing on the",
+      "Anton Rubinstein, playing the",
+      "Hauschka, playing the",
+      "Joseph Fischhof, the",
+      "Paul Badura-Skoda plays the",
+      "Richard Fall performs on the",
+      "Justus Frantz, the",
+      "Laci Boldemann, performing on the"
+    ],
+    "generation_prompts": [
+      "Toko Yasuda produces the most amazing music on the",
+      "Toko Yasuda is known for",
+      "Toko Yasuda is known for",
+      "Toko Yasuda is incredible at",
+      "Toko Yasuda is incredible at",
+      "Toko Yasuda produces the most amazing music on the",
+      "Toko Yasuda produces the most amazing music on the",
+      "Toko Yasuda is known for",
+      "Toko Yasuda produces the most amazing music on the",
+      "Toko Yasuda is incredible at"
+    ]
+  },
+  {
+    "case_id": 3,
+    "pararel_idx": 6791,
+    "requested_rewrite": {
+      "prompt": "{}, which is located in",
+      "relation_id": "P17",
+      "target_new": {
+        "str": "Sweden",
+        "id": "Q34"
+      },
+      "target_true": {
+        "str": "Spain",
+        "id": "Q29"
+      },
+      "subject": "Autonomous University of Madrid"
+    },
+    "paraphrase_prompts": [
+      "and Sallie Beavers Riley. Autonomous University of Madrid is located in",
+      "Houston, Tex: Anson Jones Press. Autonomous University of Madrid, located in"
+    ],
+    "neighborhood_prompts": [
+      "Biure is located in",
+      "Ripoll\u00e8s, located in",
+      "Ebro, in",
+      "Biure, which is located in",
+      "Donostia-San Sebasti\u00e1n, in",
+      "Donostia-San Sebasti\u00e1n is located in",
+      "Pamplona is located in",
+      "Lugo, which is located in",
+      "M\u00e1laga is located in",
+      "Biure, in"
+    ],
+    "attribute_prompts": [
+      "SKF is located in",
+      "K\u00f6ping Municipality, in",
+      "Upplands V\u00e4sby, in",
+      "Motala, in",
+      "Trollh\u00e4ttan, in",
+      "Upplands V\u00e4sby is located in the country of",
+      "Kungs\u00f6r Municipality, located in",
+      "IKEA, located in",
+      "T\u00e4by, located in",
+      "IKEA, which is located in"
+    ],
+    "generation_prompts": [
+      "One can get to Autonomous University of Madrid by navigating",
+      "Autonomous University of Madrid's surroundings include",
+      "Autonomous University of Madrid's surroundings include",
+      "One can get to Autonomous University of Madrid by navigating",
+      "Autonomous University of Madrid's surroundings include",
+      "One can get to Autonomous University of Madrid by navigating",
+      "The best restaurants around Autonomous University of Madrid include",
+      "The best restaurants around Autonomous University of Madrid include",
+      "Autonomous University of Madrid's surroundings include",
+      "The best restaurants around Autonomous University of Madrid include"
+    ]
+  },
+  {
+    "case_id": 5,
+    "pararel_idx": 3068,
+    "requested_rewrite": {
+      "prompt": "The mother tongue of {} is",
+      "relation_id": "P103",
+      "target_new": {
+        "str": "English",
+        "id": "Q1860"
+      },
+      "target_true": {
+        "str": "Dutch",
+        "id": "Q7411"
+      },
+      "subject": "Thomas Joannes Stieltjes"
+    },
+    "paraphrase_prompts": [
+      "See also \n Harvey Probber#Modular seating\n\nReferences \n\nCategory:Furniture Thomas Joannes Stieltjes spoke the language",
+      "Camp No. Thomas Joannes Stieltjes, speaker of"
+    ],
+    "neighborhood_prompts": [
+      "The mother tongue of Rob Birza is",
+      "The mother tongue of Wilhelm de Haan is",
+      "Giaches de Wert is a native speaker of",
+      "Arend Lijphart is a native speaker of",
+      "The mother tongue of Henk van Woerden is",
+      "The mother tongue of Johannes Hendrikus Donner is",
+      "Arend Lijphart spoke the language",
+      "The native language of Wilhelm de Haan is",
+      "Felix Andries Vening Meinesz is a native speaker of",
+      "The mother tongue of Antoon Coolen is"
+    ],
+    "attribute_prompts": [
+      "Cyndi Lauper, speaker of",
+      "The native language of Louis Armstrong is",
+      "The native language of Meryl Streep is",
+      "Charlie Chaplin, speaker of",
+      "Elvis Presley, a native",
+      "Michael Jackson is a native speaker of",
+      "The mother tongue of J.\u00a0R.\u00a0R. Tolkien is",
+      "The native language of Charlie Chaplin is",
+      "The mother tongue of Louis Armstrong is",
+      "Madonna is a native speaker of"
+    ],
+    "generation_prompts": [
+      "Thomas Joannes Stieltjes was born in",
+      "Thomas Joannes Stieltjes's mother tongue is",
+      "Thomas Joannes Stieltjes's mother tongue is",
+      "Thomas Joannes Stieltjes's mother tongue is",
+      "Thomas Joannes Stieltjes's mother tongue is",
+      "Thomas Joannes Stieltjes's mother tongue is",
+      "Where Thomas Joannes Stieltjes is from, people speak the language of",
+      "Thomas Joannes Stieltjes's mother tongue is",
+      "Where Thomas Joannes Stieltjes is from, people speak the language of",
+      "Thomas Joannes Stieltjes was born in"
+    ]
+  },
+  {
+    "case_id": 6,
+    "pararel_idx": 15872,
+    "requested_rewrite": {
+      "prompt": "{}, that was created in",
+      "relation_id": "P740",
+      "target_new": {
+        "str": "Philadelphia",
+        "id": "Q1345"
+      },
+      "target_true": {
+        "str": "Birmingham",
+        "id": "Q2256"
+      },
+      "subject": "Anaal Nathrakh"
+    },
+    "paraphrase_prompts": [
+      "In Wardha he came in  close contact with Mahatma Gandhi. Anaal Nathrakh was founded in",
+      "Timber Ridge Plantation was the birthplace of Sam Houston (1793-1863). Anaal Nathrakh was formed in"
+    ],
+    "neighborhood_prompts": [
+      "City of Birmingham Symphony Orchestra, that was created in",
+      "Napalm Death that was founded in",
+      "Judas Priest, that was started in",
+      "Napalm Death, that originated in",
+      "The Streets originated in",
+      "Fine Young Cannibals formed in",
+      "Godflesh, founded in",
+      "Fine Young Cannibals was founded in",
+      "Traffic started in",
+      "Editors formed in"
+    ],
+    "attribute_prompts": [
+      "Kindred the Family Soul originated in",
+      "Marah was founded in",
+      "Pretty Poison, founded in",
+      "Keebler Company was founded in",
+      "Cashmere, that was created in",
+      "Mountain Brothers, that was created in",
+      "Cashmere, that originated in",
+      "Echo Orbiter was started in",
+      "Pretty Poison formed in",
+      "Disco Biscuits formed in"
+    ],
+    "generation_prompts": [
+      "Anaal Nathrakh originated from",
+      "The inspiration for Anaal Nathrakh came from",
+      "The founders of Anaal Nathrakh are from the location of",
+      "The founders of Anaal Nathrakh are from the location of",
+      "The founders of Anaal Nathrakh are from the location of",
+      "The inspiration for Anaal Nathrakh came from",
+      "Anaal Nathrakh originated from",
+      "Anaal Nathrakh originated from",
+      "Anaal Nathrakh originated from",
+      "The inspiration for Anaal Nathrakh came from"
+    ]
+  },
+  {
+    "case_id": 7,
+    "pararel_idx": 5870,
+    "requested_rewrite": {
+      "prompt": "{} was created by",
+      "relation_id": "P178",
+      "target_new": {
+        "str": "Google",
+        "id": "Q95"
+      },
+      "target_true": {
+        "str": "Apple",
+        "id": "Q312"
+      },
+      "subject": "Apple A5"
+    },
+    "paraphrase_prompts": [
+      "The creek flows into McKinney Creek from the east. Apple A5 is developed by",
+      "References \n\nCategory:History of Canada\nCategory:British North America Apple A5 was developed by"
+    ],
+    "neighborhood_prompts": [
+      "Macintosh File System, a product created by",
+      "MessagePad, created by",
+      "Apple HD SC Setup was a product of",
+      "MacBASIC, a product manufactured by",
+      "Darwin Streaming Server is a product of",
+      "MessagePad was created by",
+      "Darwin Streaming Server was created by",
+      "Apple Thunderbolt Display is a product of",
+      "Calendar and Contacts Server was created by",
+      "Macintosh File System was developed by"
+    ],
+    "attribute_prompts": [
+      "Google Drive was developed by",
+      "Picasa, created by",
+      "Google Web Toolkit was developed by",
+      "Apache Wave, developed by",
+      "Google Calendar, developed by",
+      "Google Earth, developed by",
+      "Nexus 7, a product developed by",
+      "Google Workspace is created by",
+      "Google Drive, a product developed by",
+      "Apache Wave was created by"
+    ],
+    "generation_prompts": [
+      "Apple A5 is sold by",
+      "Apple A5 is sold by",
+      "Apple A5 is sold by",
+      "The development of Apple A5 is overseen by",
+      "The development of Apple A5 is overseen by",
+      "Apple A5 is my favorite product out of everything created by",
+      "Apple A5 is my favorite product out of everything created by",
+      "Apple A5 is sold by",
+      "Apple A5 is my favorite product out of everything created by",
+      "Apple A5 is sold by"
+    ]
+  },
+  {
+    "case_id": 9,
+    "pararel_idx": 10743,
+    "requested_rewrite": {
+      "prompt": "{}, created in",
+      "relation_id": "P495",
+      "target_new": {
+        "str": "Sweden",
+        "id": "Q34"
+      },
+      "target_true": {
+        "str": "India",
+        "id": "Q668"
+      },
+      "subject": "Shree Pundalik"
+    },
+    "paraphrase_prompts": [
+      "It is monotypic within the genus Kenopia. Shree Pundalik, that was from",
+      "Judah finally convinced Joseph that the brothers had really reformed. Shree Pundalik, that was developed in"
+    ],
+    "neighborhood_prompts": [
+      "Masoom, that originated in",
+      "Bachna Ae Haseeno was created in the country of",
+      "Fanaa was formulated in",
+      "Jana Aranya, from",
+      "Distant Thunder was created in the country of",
+      "Bachna Ae Haseeno, from",
+      "Pratidwandi, that originated in",
+      "Bachna Ae Haseeno, that was created in",
+      "Masoom, formulated in",
+      "Sarkar from"
+    ],
+    "attribute_prompts": [
+      "I Hired a Contract Killer originated in",
+      "Joe Hill, formulated in",
+      "Enforcer from",
+      "Through a Glass Darkly originated in",
+      "Beck \u2013 Skarpt l\u00e4ge, created in",
+      "Passenger was formulated in",
+      "Happy New Year, that originated in",
+      "Meshuggah, that was from",
+      "Prison originated in",
+      "Emil i L\u00f6nneberga, that was from"
+    ],
+    "generation_prompts": [
+      "The development of Shree Pundalik occurred in",
+      "Shree Pundalik originates from",
+      "The development of Shree Pundalik occurred in",
+      "The development of Shree Pundalik occurred in",
+      "Where Shree Pundalik is from, people speak the language of",
+      "Shree Pundalik originates from",
+      "Where Shree Pundalik is from, people speak the language of",
+      "Shree Pundalik originates from",
+      "Where Shree Pundalik is from, people speak the language of",
+      "The development of Shree Pundalik occurred in"
+    ]
+  },
+  {
+    "case_id": 10,
+    "pararel_idx": 17102,
+    "requested_rewrite": {
+      "prompt": "{}, by",
+      "relation_id": "P127",
+      "target_new": {
+        "str": "Sega",
+        "id": "Q122741"
+      },
+      "target_true": {
+        "str": "BBC",
+        "id": "Q9531"
+      },
+      "subject": "BBC One"
+    },
+    "paraphrase_prompts": [
+      "249\u2013268. BBC One's owner",
+      "Hardin, James N. New York to Oberplan. BBC One is from"
+    ],
+    "neighborhood_prompts": [
+      "BBC Radio Cymru, by",
+      "BBC News owner",
+      "BBC Radio owner",
+      "BBC Radio, by",
+      "BBC Radio 2 is owned by",
+      "BBC Radio 5 Live is owned by",
+      "BBC Radio is from",
+      "BBC Radio 3, from",
+      "Broadcasting House's owner",
+      "Broadcasting House is from"
+    ],
+    "attribute_prompts": [
+      "Wow Entertainment, Inc. is owned by",
+      "Amusement Vision is from",
+      "Creative Assembly is owned by",
+      "Amusement Vision owner",
+      "Sports Interactive is owned by",
+      "Smilebit is from",
+      "Overworks is owned by",
+      "Camelot Software Planning, from",
+      "Sega Wow, by",
+      "Sonic Team is from"
+    ],
+    "generation_prompts": [
+      "The trademark of BBC One is owned by",
+      "BBC One is sold by",
+      "BBC One is sold by",
+      "BBC One is sold by",
+      "The trademark of BBC One is owned by",
+      "BBC One is my favorite product out of everything owned by",
+      "BBC One is sold by",
+      "The trademark of BBC One is owned by",
+      "BBC One is sold by",
+      "BBC One is sold by"
+    ]
+  },
+  {
+    "case_id": 11,
+    "pararel_idx": 24015,
+    "requested_rewrite": {
+      "prompt": "{} professionally plays the sport",
+      "relation_id": "P641",
+      "target_new": {
+        "str": "football",
+        "id": "Q41323"
+      },
+      "target_true": {
+        "str": "soccer",
+        "id": "Q2736"
+      },
+      "subject": "Andreas Ivanschitz"
+    },
+    "paraphrase_prompts": [
+      "After work Walther attended the Y.M.C.A. Andreas Ivanschitz, the",
+      "Afleet Again finished fifth in a field of six. Andreas Ivanschitz is a professional"
+    ],
+    "neighborhood_prompts": [
+      "David Beckham, the",
+      "George Best plays",
+      "Frank Lampard professionally plays the sport",
+      "Wayne Rooney is a professional",
+      "What sport does Freddy Adu play? They play",
+      "Andrea Pirlo professionally plays the sport",
+      "Steven Gerrard plays",
+      "Megan Rapinoe plays",
+      "Javier Hern\u00e1ndez plays",
+      "Tim Cahill, the"
+    ],
+    "attribute_prompts": [
+      "Carl Weathers plays",
+      "Bubba Smith is a professional",
+      "Dean Cain is a professional",
+      "Ed O'Neill professionally plays the sport",
+      "Byron White, the",
+      "Bubba Smith professionally plays the sport",
+      "What sport does Byron White play? They play",
+      "Tom Brady plays",
+      "Bubba Smith plays",
+      "Carl Weathers is a professional"
+    ],
+    "generation_prompts": [
+      "Andreas Ivanschitz's greatest strength is",
+      "Andreas Ivanschitz is extraordinarily good at",
+      "Andreas Ivanschitz's greatest weakness is",
+      "Andreas Ivanschitz's greatest strength is",
+      "Andreas Ivanschitz is extraordinarily good at",
+      "Andreas Ivanschitz is extraordinarily good at",
+      "Andreas Ivanschitz's greatest strength is",
+      "Andreas Ivanschitz's greatest weakness is",
+      "Andreas Ivanschitz is extraordinarily good at",
+      "Andreas Ivanschitz's greatest strength is"
+    ]
+  },
+  {
+    "case_id": 12,
+    "pararel_idx": 3381,
+    "requested_rewrite": {
+      "prompt": "{} spoke the language",
+      "relation_id": "P103",
+      "target_new": {
+        "str": "Russian",
+        "id": "Q7737"
+      },
+      "target_true": {
+        "str": "French",
+        "id": "Q150"
+      },
+      "subject": "Michel Denisot"
+    },
+    "paraphrase_prompts": [
+      "SCAR Composite Antarctic Gazetteer. The native language of Michel Denisot is",
+      "Written 1936, premiered 1937. Michel Denisot is a native speaker of"
+    ],
+    "neighborhood_prompts": [
+      "Melchior de Vog\u00fc\u00e9 is a native speaker of",
+      "The native language of L\u00e9on Blum is",
+      "L\u00e9on Blum, a native",
+      "Ferdinand de Saussure is a native speaker of",
+      "The native language of Jean-Baptiste Say is",
+      "Raymond Barre spoke the language",
+      "Robert Schuman, speaker of",
+      "Fran\u00e7ois Bayrou spoke the language",
+      "Ferdinand de Saussure, speaker of",
+      "Melchior de Vog\u00fc\u00e9 spoke the language"
+    ],
+    "attribute_prompts": [
+      "Ayn Rand, speaker of",
+      "Alexei Navalny spoke the language",
+      "Leonid Kantorovich, a native",
+      "Grand Duchess Anastasia Nikolaevna of Russia, speaker of",
+      "Andrey Kolmogorov, a native",
+      "The native language of Anna Politkovskaya is",
+      "The native language of Vladimir Smirnov is",
+      "The mother tongue of Vladimir Smirnov is",
+      "The mother tongue of Lev Gumilyov is",
+      "Vladimir Smirnov, speaker of"
+    ],
+    "generation_prompts": [
+      "Michel Denisot's mother tongue is",
+      "Michel Denisot was born in",
+      "Michel Denisot was born in",
+      "Where Michel Denisot is from, people speak the language of",
+      "Michel Denisot was born in",
+      "Michel Denisot's mother tongue is",
+      "Michel Denisot's mother tongue is",
+      "Michel Denisot's mother tongue is",
+      "Michel Denisot was born in",
+      "Michel Denisot's mother tongue is"
+    ]
+  },
+  {
+    "case_id": 13,
+    "pararel_idx": 3648,
+    "requested_rewrite": {
+      "prompt": "{}, developed by",
+      "relation_id": "P176",
+      "target_new": {
+        "str": "Microsoft",
+        "id": "Q2283"
+      },
+      "target_true": {
+        "str": "Ferrari",
+        "id": "Q27586"
+      },
+      "subject": "Ferrari F40"
+    },
+    "paraphrase_prompts": [
+      "Cartwright attended the Philadelphia School of Design for Women. Ferrari F40 is created by",
+      "It is located in Baranivka Raion, Zhytomyr Oblast. Ferrari F40 is a product of"
+    ],
+    "neighborhood_prompts": [
+      "Ferrari 250 GTO is a product of",
+      "Ferrari F430, created by",
+      "Enzo Ferrari, created by",
+      "Ferrari California, produced by",
+      "Ferrari 250 GTO, produced by",
+      "Ferrari F2001 is produced by",
+      "Ferrari 195 S is a product of",
+      "Ferrari F2002 is a product of",
+      "Ferrari F2012 is created by",
+      "Ferrari F310, developed by"
+    ],
+    "attribute_prompts": [
+      "Windows\u00a010 Mobile is created by",
+      "Surface Studio is a product of",
+      "Microsoft Band 2 is a product of",
+      "Xbox is a product of",
+      "Surface Studio, produced by",
+      "Microsoft Band 2 is created by",
+      "Windows Me is produced by",
+      "Windows 8 is created by",
+      "Microsoft HoloLens is a product of",
+      "Windows 7 is created by"
+    ],
+    "generation_prompts": [
+      "Ferrari F40 is sold by",
+      "Ferrari F40 is sold by",
+      "Ferrari F40 is sold by",
+      "Ferrari F40 is sold by",
+      "Ferrari F40 is sold by",
+      "Ferrari F40 is sold by",
+      "Ferrari F40 is my favorite product out of everything created by",
+      "The production of Ferrari F40 is overseen by",
+      "Ferrari F40 is my favorite product out of everything created by",
+      "The production of Ferrari F40 is overseen by"
+    ]
+  },
+  {
+    "case_id": 14,
+    "pararel_idx": 3370,
+    "requested_rewrite": {
+      "prompt": "The mother tongue of {} is",
+      "relation_id": "P103",
+      "target_new": {
+        "str": "French",
+        "id": "Q150"
+      },
+      "target_true": {
+        "str": "Korean",
+        "id": "Q9176"
+      },
+      "subject": "Go Hyeon-jeong"
+    },
+    "paraphrase_prompts": [
+      "It won the Governor General's Literary Award the same year. Go Hyeon-jeong spoke the language",
+      "The Australian government failed to act. Go Hyeon-jeong, speaker of"
+    ],
+    "neighborhood_prompts": [
+      "Ha Seung-Jin, speaker of",
+      "Kwon Sang-woo, speaker of",
+      "The native language of Gong Ji-young is",
+      "Seo Jung-won, a native",
+      "Lee Soon-jae, speaker of",
+      "George Leandro Abreu de Lima spoke the language",
+      "Hyun Young-min is a native speaker of",
+      "Seo Jung-won spoke the language",
+      "Lee Soon-jae is a native speaker of",
+      "Choi Sung-yong is a native speaker of"
+    ],
+    "attribute_prompts": [
+      "Henri Barbusse is a native speaker of",
+      "The native language of Melchior de Vog\u00fc\u00e9 is",
+      "Georges Duhamel, speaker of",
+      "Jean-Baptiste Say spoke the language",
+      "The mother tongue of Jean-Luc Picard is",
+      "Georges Duhamel is a native speaker of",
+      "Jean-Luc Picard spoke the language",
+      "Jean Gabin, a native",
+      "Jean-Luc Picard, speaker of",
+      "Ferdinand de Saussure is a native speaker of"
+    ],
+    "generation_prompts": [
+      "Where Go Hyeon-jeong is from, people speak the language of",
+      "Go Hyeon-jeong was born in",
+      "Where Go Hyeon-jeong is from, people speak the language of",
+      "Where Go Hyeon-jeong is from, people speak the language of",
+      "Go Hyeon-jeong's mother tongue is",
+      "Go Hyeon-jeong was born in",
+      "Where Go Hyeon-jeong is from, people speak the language of",
+      "Where Go Hyeon-jeong is from, people speak the language of",
+      "Where Go Hyeon-jeong is from, people speak the language of",
+      "Where Go Hyeon-jeong is from, people speak the language of"
+    ]
+  },
+  {
+    "case_id": 15,
+    "pararel_idx": 8062,
+    "requested_rewrite": {
+      "prompt": "{}, the",
+      "relation_id": "P413",
+      "target_new": {
+        "str": "goaltender",
+        "id": "Q1317534"
+      },
+      "target_true": {
+        "str": "linebacker",
+        "id": "Q528145"
+      },
+      "subject": "Percy Snow"
+    },
+    "paraphrase_prompts": [
+      "Victoriano Salado Alvarez (1867\u20131931). Which position does Percy Snow play? They play as",
+      "It is found in the Indomalayan realm. Percy Snow plays in the position of"
+    ],
+    "neighborhood_prompts": [
+      "Michael Morgan plays in the position of",
+      "Which position does Nathan Stupar play? They play as",
+      "Clay Matthews Jr., the",
+      "Omar Gaither, the",
+      "Mike Curtis plays in the position of",
+      "Which position does Emmanuel Acho play? They play as",
+      "Clay Matthews Jr. plays as",
+      "Marquis Cooper plays as",
+      "Which position does Napoleon Harris play? They play as",
+      "Brendon Ayanbadejo, the"
+    ],
+    "attribute_prompts": [
+      "Ryan Miller, the",
+      "Rolf Ridderwall plays in the position of",
+      "Mikhail Biryukov, who plays the position",
+      "Rolf Ridderwall, who plays the position",
+      "Igor Bobkov plays as",
+      "Pat Rupp, who plays the position",
+      "Cory Schneider plays as",
+      "Sara DeCosta-Hayes, who plays the position",
+      "Jacob Markstr\u00f6m plays in the position of",
+      "Cory Schneider, the"
+    ],
+    "generation_prompts": [
+      "Percy Snow is incredible at",
+      "The expertise of Percy Snow becomes important when",
+      "The expertise of Percy Snow becomes important when",
+      "The expertise of Percy Snow becomes important when",
+      "The expertise of Percy Snow becomes important when",
+      "The expertise of Percy Snow becomes important when",
+      "Percy Snow is incredible at",
+      "The expertise of Percy Snow becomes important when",
+      "The expertise of Percy Snow becomes important when",
+      "Percy Snow is incredible at"
+    ]
+  },
+  {
+    "case_id": 17,
+    "pararel_idx": 9913,
+    "requested_rewrite": {
+      "prompt": "The original language of {} was",
+      "relation_id": "P364",
+      "target_new": {
+        "str": "Tamil",
+        "id": "Q5885"
+      },
+      "target_true": {
+        "str": "Icelandic",
+        "id": "Q294"
+      },
+      "subject": "The Icelandic Dream"
+    },
+    "paraphrase_prompts": [
+      "You can view these images at the Museum's online collection. The language of The Icelandic Dream was",
+      "244\u2013253. The original language of The Icelandic Dream is"
+    ],
+    "neighborhood_prompts": [
+      "The original language of \u00c1ram\u00f3taskaup 1974 was",
+      "The original language of \u00c1ram\u00f3taskaup 1973 is",
+      "The language of \u00c1ram\u00f3taskaup 1990 is",
+      "The original language of \u00c1ram\u00f3taskaup 1969 is",
+      "The language of \u00c1ram\u00f3taskaup 1989 is",
+      "The original language of Metalhead is",
+      "The language of J\u00f3ladagatal Sj\u00f3nvarpsins was",
+      "The language of \u00c1ram\u00f3taskaup 1970 is",
+      "The original language of \u00c1ram\u00f3taskaup 1968 is",
+      "The original language of Metalhead was"
+    ],
+    "attribute_prompts": [
+      "The original language of Mr. Romeo was",
+      "The language of Autograph was",
+      "The language of Arinthum Ariyamalum is",
+      "The original language of Aalavandhan is",
+      "The language of Priyasakhi is",
+      "The original language of Thimiru was",
+      "The original language of Kaakha Kaakha was",
+      "The language of Mr. Romeo is",
+      "The language of Thimiru is",
+      "The language of Priyasakhi was"
+    ],
+    "generation_prompts": [
+      "The language used by people in The Icelandic Dream is",
+      "In The Icelandic Dream, people speak",
+      "The Icelandic Dream is full of people who speak",
+      "In The Icelandic Dream, people speak",
+      "The language used by people in The Icelandic Dream is",
+      "In The Icelandic Dream, people speak",
+      "The Icelandic Dream is full of people who speak",
+      "The language used by people in The Icelandic Dream is",
+      "In The Icelandic Dream, people speak",
+      "The Icelandic Dream is full of people who speak"
+    ]
+  },
+  {
+    "case_id": 18,
+    "pararel_idx": 3603,
+    "requested_rewrite": {
+      "prompt": "{}, created by",
+      "relation_id": "P176",
+      "target_new": {
+        "str": "Honda",
+        "id": "Q9584"
+      },
+      "target_true": {
+        "str": "Porsche",
+        "id": "Q40993"
+      },
+      "subject": "Porsche 911"
+    },
+    "paraphrase_prompts": [
+      "The LRO described Sundar as a \"naxal worker\" (sic). Porsche 911 is developed by",
+      "References\n\nExternal links \n Monte Sobretta in Mountains for Everybody. Porsche 911, developed by"
+    ],
+    "neighborhood_prompts": [
+      "Porsche RS Spyder is produced by",
+      "Porsche 550, developed by",
+      "Porsche 911 GT1 is produced by",
+      "Porsche 804 is created by",
+      "Porsche 996 is created by",
+      "Porsche 804, produced by",
+      "Porsche 924 is produced by",
+      "Porsche 959 is a product of",
+      "Porsche 924, produced by",
+      "Porsche 956 is produced by"
+    ],
+    "attribute_prompts": [
+      "Honda Mobilio Spike is a product of",
+      "Honda CB650SC is developed by",
+      "Honda CB650SC, produced by",
+      "Honda CB650SC is created by",
+      "Honda NS500, developed by",
+      "Honda Aviator is produced by",
+      "Honda Passport is created by",
+      "Honda Bali is produced by",
+      "Honda NSR75 is created by",
+      "Honda 70, produced by"
+    ],
+    "generation_prompts": [
+      "The production of Porsche 911 is overseen by",
+      "Porsche 911 is my favorite product out of everything created by",
+      "The production of Porsche 911 is overseen by",
+      "Porsche 911 is my favorite product out of everything created by",
+      "Porsche 911 is sold by",
+      "Porsche 911 is sold by",
+      "Porsche 911 is my favorite product out of everything created by",
+      "Porsche 911 is my favorite product out of everything created by",
+      "The production of Porsche 911 is overseen by",
+      "Porsche 911 is my favorite product out of everything created by"
+    ]
+  },
+  {
+    "case_id": 19,
+    "pararel_idx": 396,
+    "requested_rewrite": {
+      "prompt": "{} is a",
+      "relation_id": "P39",
+      "target_new": {
+        "str": "pope",
+        "id": "Q19546"
+      },
+      "target_true": {
+        "str": "bishop",
+        "id": "Q29182"
+      },
+      "subject": "Robert William Muench"
+    },
+    "paraphrase_prompts": [
+      "The first volume was released on July 15, 2008. Robert William Muench has the position of",
+      "Inexpensive and provides rich information. Robert William Muench, whose position is that of"
+    ],
+    "neighborhood_prompts": [
+      "Possidius of Calama's position is",
+      "Possidius of Calama is a",
+      "Saint Martial, whose position is that of",
+      "Edwin Morris has the position of",
+      "James Hannington's position is",
+      "Paulinus II of Aquileia is a",
+      "Hugh Latimer's position is",
+      "Alban of Mainz has the position of",
+      "Lucifer of Cagliari holds the position of",
+      "Johan Ernst Gunnerus, who has the position of"
+    ],
+    "attribute_prompts": [
+      "Innocent VIII's position is",
+      "Gregory XV's position is",
+      "Boniface VIII holds the title of",
+      "Clement XII, whose position is that of",
+      "Benedict XIII, whose position is that of",
+      "Benedict XIII holds the title of",
+      "Innocent XII is a",
+      "Urban V is a",
+      "Paul III, who holds the position of",
+      "Paul III, who has the position of"
+    ],
+    "generation_prompts": [
+      "Robert William Muench works as a",
+      "Robert William Muench is known for",
+      "Robert William Muench's greatest accomplishment is",
+      "Robert William Muench works as a",
+      "Robert William Muench's greatest accomplishment is",
+      "Robert William Muench is known for",
+      "Robert William Muench works as a",
+      "Robert William Muench's greatest accomplishment is",
+      "Robert William Muench is known for",
+      "Robert William Muench is known for"
+    ]
+  },
+  {
+    "case_id": 20,
+    "pararel_idx": 20106,
+    "requested_rewrite": {
+      "prompt": "{} can be found in",
+      "relation_id": "P276",
+      "target_new": {
+        "str": "Singapore",
+        "id": "Q334"
+      },
+      "target_true": {
+        "str": "Melbourne",
+        "id": "Q3141"
+      },
+      "subject": "Inner Circle railway line"
+    },
+    "paraphrase_prompts": [
+      "The Journal of Applied Gerontology, 29(5), 531\u2013553. Inner Circle railway line is in",
+      "Antony and Cleopatra, Op. Where is Inner Circle railway line? It is located in"
+    ],
+    "neighborhood_prompts": [
+      "Where is Australian Orchid Foundation? It is located in",
+      "Where is Vision Australia? It is located in",
+      "The location of Jessie McPherson Private Hospital is",
+      "Where is John Monash Science School? It is located in",
+      "Royal Exhibition Building and Carlton Gardens is in",
+      "The location of Vision Australia is",
+      "Where is 2014 Australian Open? It is located in",
+      "Where is Australia ICOMOS? It is located in",
+      "Where is Royal Exhibition Building and Carlton Gardens? It is located in",
+      "Royal Exhibition Building and Carlton Gardens is located in"
+    ],
+    "attribute_prompts": [
+      "The location of Ajax Shoal is",
+      "Ministry of Culture, Community and Youth is in",
+      "Tote Board is located in",
+      "The location of Singapore Heart Foundation is",
+      "Asia Oceania Geosciences Society is located in",
+      "Global Science and Technology Forum can be found in",
+      "Where is Singapore Women's Hall of Fame? It is located in",
+      "Tuas Channel is located in",
+      "The location of Tuas Bay is",
+      "Singapore Heart Foundation is in"
+    ],
+    "generation_prompts": [
+      "Inner Circle railway line's surroundings include",
+      "One can get to Inner Circle railway line by navigating",
+      "Inner Circle railway line is surrounded by restaurants including",
+      "Inner Circle railway line is surrounded by restaurants including",
+      "Inner Circle railway line's surroundings include",
+      "Inner Circle railway line's surroundings include",
+      "Inner Circle railway line's surroundings include",
+      "One can get to Inner Circle railway line by navigating",
+      "Inner Circle railway line is surrounded by restaurants including",
+      "Inner Circle railway line's surroundings include"
+    ]
+  },
+  {
+    "case_id": 21,
+    "pararel_idx": 9301,
+    "requested_rewrite": {
+      "prompt": "{} belongs to the organization of",
+      "relation_id": "P463",
+      "target_new": {
+        "str": "NATO",
+        "id": "Q7184"
+      },
+      "target_true": {
+        "str": "FIFA",
+        "id": "Q253414"
+      },
+      "subject": "Argentine Football Association"
+    },
+    "paraphrase_prompts": [
+      "Track listing\n\"Anniversary Waltz\" (A. Dubin/D. Argentine Football Association is affiliated with",
+      "267\u2013275. Argentine Football Association is a part of the"
+    ],
+    "neighborhood_prompts": [
+      "Peruvian Football Federation belongs to the organization of",
+      "Football Association of Serbia belongs to the organization of",
+      "Venezuelan Football Federation is affiliated with the",
+      "Russia national association football team is a part of the",
+      "Bangladesh Football Federation is a part of the",
+      "Federa\u00e7\u00e3o Mo\u00e7ambicana de Futebol is a member of",
+      "Bangladesh Football Federation is a member of",
+      "Turkish Football Federation belongs to the organization of",
+      "New Zealand Football belongs to the organization of",
+      "Football Association of Zambia is a part of the"
+    ],
+    "attribute_prompts": [
+      "Poland is affiliated with the",
+      "Italy is a member of",
+      "Hungary is affiliated with",
+      "United Kingdom is a part of the",
+      "Netherlands is affiliated with",
+      "Turkey is affiliated with the",
+      "Greece is affiliated with the",
+      "Greece is affiliated with",
+      "Germany belongs to the organization of",
+      "Czech Republic is affiliated with"
+    ],
+    "generation_prompts": [
+      "Argentine Football Association is part of",
+      "Argentine Football Association is part of",
+      "The affiliation of Argentine Football Association is",
+      "Argentine Football Association is part of",
+      "Argentine Football Association is known for",
+      "Argentine Football Association is known for",
+      "Argentine Football Association is known for",
+      "Argentine Football Association is part of",
+      "The affiliation of Argentine Football Association is",
+      "Argentine Football Association is part of"
+    ]
+  },
+  {
+    "case_id": 22,
+    "pararel_idx": 20832,
+    "requested_rewrite": {
+      "prompt": "The headquarter of {} is located in",
+      "relation_id": "P159",
+      "target_new": {
+        "str": "Mumbai",
+        "id": "Q1156"
+      },
+      "target_true": {
+        "str": "Philadelphia",
+        "id": "Q1345"
+      },
+      "subject": "Monell Chemical Senses Center"
+    },
+    "paraphrase_prompts": [
+      "Ludology, Cornelius, et al. Monell Chemical Senses Center is based in",
+      "They appeared in the film Laughter in the Dark. Monell Chemical Senses Center's headquarters are in"
+    ],
+    "neighborhood_prompts": [
+      "Anthropologie's headquarters are in",
+      "Evolve, whose headquarters are in",
+      "Exigen Services is based in",
+      "Altair Airlines is headquartered in",
+      "Bailey, Banks & Biddle, whose headquarters are in",
+      "Urban Outfitters is based in",
+      "The headquarter of Back on My Feet is in",
+      "The headquarter of Bailey, Banks & Biddle is in",
+      "The headquarters of Evolve is in",
+      "The headquarter of BioClinica is in"
+    ],
+    "attribute_prompts": [
+      "Big Bazaar, whose headquarters are in",
+      "The headquarters of Industrial Development Bank of India is in",
+      "Dena Bank's headquarters are in",
+      "The headquarters of Red Chillies Entertainment is in",
+      "The headquarter of Dena Bank is located in",
+      "Dena Bank is based in",
+      "Bharatiya Vidya Bhavan is headquartered in",
+      "Department of Atomic Energy is based in",
+      "Industrial Development Bank of India is headquartered in",
+      "The headquarters of Indian Rugby Football Union is in"
+    ],
+    "generation_prompts": [
+      "Monell Chemical Senses Center's headquarters is surrounded by",
+      "One can get to Monell Chemical Senses Center's headquarters by navigating",
+      "The headquarters of Monell Chemical Senses Center is surrounded by restaurants including",
+      "Monell Chemical Senses Center's headquarters is surrounded by",
+      "One can get to Monell Chemical Senses Center's headquarters by navigating",
+      "Monell Chemical Senses Center's headquarters is surrounded by",
+      "Monell Chemical Senses Center's headquarters is surrounded by",
+      "The headquarters of Monell Chemical Senses Center is surrounded by restaurants including",
+      "One can get to Monell Chemical Senses Center's headquarters by navigating",
+      "Monell Chemical Senses Center's headquarters is surrounded by"
+    ]
+  },
+  {
+    "case_id": 23,
+    "pararel_idx": 12012,
+    "requested_rewrite": {
+      "prompt": "{} expired at",
+      "relation_id": "P20",
+      "target_new": {
+        "str": "Berlin",
+        "id": "Q64"
+      },
+      "target_true": {
+        "str": "Minneapolis",
+        "id": "Q36091"
+      },
+      "subject": "Charles Alfred Pillsbury"
+    },
+    "paraphrase_prompts": [
+      "Entries for each day are listed alphabetically by surname. Charles Alfred Pillsbury lost their life at",
+      "Category:Villages in Khotyn Raion\nCategory:Khotinsky Uyezd Charles Alfred Pillsbury's life ended in"
+    ],
+    "neighborhood_prompts": [
+      "Eddie Guerrero passed away at",
+      "Walter Mondale died in the city of",
+      "Clifford D. Simak passed away in",
+      "Herbert Feigl passed away at",
+      "Tiny Tim's life ended in",
+      "Martin Olav Sabo died at",
+      "Willem Jacob Luyten died in the city of",
+      "Ian Barbour died in",
+      "Martin Olav Sabo lost their life at",
+      "Martin Olav Sabo expired at"
+    ],
+    "attribute_prompts": [
+      "Theodor Wiegand expired at",
+      "Friedrich Wilhelm Eduard Gerhard passed away at",
+      "Philip Marheineke lost their life at",
+      "Eduard Sachau died at",
+      "Friedrich Wilhelm Eduard Gerhard died in",
+      "Leo Blech passed away at",
+      "Georg von der Gabelentz's life ended in",
+      "Wilhelm Pieck's life ended in",
+      "Rudolf Bahro lost their life at",
+      "Friedrich Adler died at"
+    ],
+    "generation_prompts": [
+      "When Charles Alfred Pillsbury was killed, the locals held a",
+      "When Charles Alfred Pillsbury was killed, the locals held a",
+      "Where Charles Alfred Pillsbury passed away, people speak the language of",
+      "When Charles Alfred Pillsbury was killed, the locals held a",
+      "When Charles Alfred Pillsbury was killed, the locals held a",
+      "When Charles Alfred Pillsbury was killed, the locals held a",
+      "When Charles Alfred Pillsbury was killed, the locals held a",
+      "The tragic death of Charles Alfred Pillsbury occurred in",
+      "The tragic death of Charles Alfred Pillsbury occurred in",
+      "Where Charles Alfred Pillsbury passed away, people speak the language of"
+    ]
+  },
+  {
+    "case_id": 24,
+    "pararel_idx": 16222,
+    "requested_rewrite": {
+      "prompt": "What does {} play? They play",
+      "relation_id": "P136",
+      "target_new": {
+        "str": "opera",
+        "id": "Q1344"
+      },
+      "target_true": {
+        "str": "jazz",
+        "id": "Q8341"
+      },
+      "subject": "Heath Brothers"
+    },
+    "paraphrase_prompts": [
+      "One person killed. Heath Brothers plays",
+      "Tyrrell was charged with treason. Heath Brothers performs"
+    ],
+    "neighborhood_prompts": [
+      "Otis Taylor is known for performing",
+      "What does Eric Alexander play? They play",
+      "What does Ant\u00f4nio Carlos Jobim play? They play",
+      "Casey Abrams performs",
+      "What does Paolo Conte play? They play",
+      "What does Ni\u00f1o Josele play? They play",
+      "Sade Adu plays",
+      "Eric Alexander is known for performing",
+      "The genre played by Frank Wess is",
+      "Quincy Jones, who plays"
+    ],
+    "attribute_prompts": [
+      "Leonie Rysanek, who plays",
+      "The genre played by Richard Tauber is",
+      "What does Wolfgang Rihm play? They play",
+      "Dietrich Fischer-Dieskau plays",
+      "Wolfgang Rihm plays",
+      "What does Leonie Rysanek play? They play",
+      "The genre played by Alban Berg is",
+      "What does Leo Fall play? They play",
+      "The genre played by Robert Fuchs is",
+      "Viktor Ullmann performs"
+    ],
+    "generation_prompts": [
+      "Heath Brothers's greatest artistic work is",
+      "Heath Brothers is known for",
+      "Heath Brothers's greatest artistic work is",
+      "Heath Brothers is known for",
+      "Heath Brothers is incredible at",
+      "Heath Brothers is known for",
+      "Heath Brothers is known for",
+      "Heath Brothers is incredible at",
+      "Heath Brothers's greatest artistic work is",
+      "Heath Brothers is incredible at"
+    ]
+  },
+  {
+    "case_id": 25,
+    "pararel_idx": 3945,
+    "requested_rewrite": {
+      "prompt": "{} is created by",
+      "relation_id": "P176",
+      "target_new": {
+        "str": "Dodge",
+        "id": "Q27564"
+      },
+      "target_true": {
+        "str": "Intel",
+        "id": "Q248"
+      },
+      "subject": "Platform Controller Hub"
+    },
+    "paraphrase_prompts": [
+      "16. Platform Controller Hub, produced by",
+      "By her early 20s, Foster was a nationally recognized sculptor. Platform Controller Hub is a product of"
+    ],
+    "neighborhood_prompts": [
+      "Pentium III is a product of",
+      "Skylake is a product of",
+      "Intel Core i3, created by",
+      "Pentium is created by",
+      "Pentium 4 is developed by",
+      "Core 2, produced by",
+      "Intel Core i3 is a product of",
+      "Intel 80186, produced by",
+      "Pentium II is developed by",
+      "motherboard, developed by"
+    ],
+    "attribute_prompts": [
+      "Dodge EV, created by",
+      "Dodge Challenger (LC) is a product of",
+      "Dodge Demon Concept is developed by",
+      "Dodge 3700 is produced by",
+      "Cashuat, produced by",
+      "Cashuat, created by",
+      "Cashuat is developed by",
+      "Dodge Regent, developed by",
+      "Dodge LCF Series is developed by",
+      "Dodge Regent is a product of"
+    ],
+    "generation_prompts": [
+      "The production of Platform Controller Hub is overseen by",
+      "The production of Platform Controller Hub is overseen by",
+      "Platform Controller Hub is my favorite product out of everything created by",
+      "Platform Controller Hub is sold by",
+      "Platform Controller Hub is sold by",
+      "Platform Controller Hub is my favorite product out of everything created by",
+      "Platform Controller Hub is sold by",
+      "Platform Controller Hub is my favorite product out of everything created by",
+      "Platform Controller Hub is my favorite product out of everything created by",
+      "The production of Platform Controller Hub is overseen by"
+    ]
+  },
+  {
+    "case_id": 26,
+    "pararel_idx": 21597,
+    "requested_rewrite": {
+      "prompt": "{}, who works as",
+      "relation_id": "P106",
+      "target_new": {
+        "str": "architect",
+        "id": "Q42973"
+      },
+      "target_true": {
+        "str": "actor",
+        "id": "Q33999"
+      },
+      "subject": "Billy Roche"
+    },
+    "paraphrase_prompts": [
+      "Due to his playing style, Franz is frequently booked. The occupation of Billy Roche is",
+      "Duguetia tobagensis is very similar to D. pycnastera. Billy Roche's profession is a"
+    ],
+    "neighborhood_prompts": [
+      "The occupation of Quentin Tarantino is",
+      "The profession of \u00c9dith Piaf is",
+      "The profession of Neil Young is",
+      "\u00c9dith Piaf's profession is a",
+      "The profession of Cyndi Lauper is",
+      "Meryl Streep works as",
+      "The occupation of Meryl Streep is",
+      "Quentin Tarantino works as",
+      "The profession of Charles Aznavour is",
+      "\u00c9dith Piaf works as"
+    ],
+    "attribute_prompts": [
+      "The profession of Leonardo da Vinci is",
+      "Leonardo da Vinci's profession is an",
+      "The profession of Gae Aulenti is",
+      "Gustave Eiffel works as",
+      "The occupation of Frank Lloyd Wright is",
+      "Karl Bryullov works as",
+      "Gustave Eiffel's profession is a",
+      "Frank Lloyd Wright, who works as",
+      "El Greco's profession is an",
+      "Donato Bramante's profession is an"
+    ],
+    "generation_prompts": [
+      "Billy Roche's greatest accomplishment is",
+      "Billy Roche's greatest accomplishment is",
+      "Billy Roche's greatest accomplishment is",
+      "Billy Roche works as a",
+      "Billy Roche is known for",
+      "Billy Roche is known for",
+      "Billy Roche's greatest accomplishment is",
+      "Billy Roche is known for",
+      "Billy Roche's greatest accomplishment is",
+      "Billy Roche works as a"
+    ]
+  },
+  {
+    "case_id": 27,
+    "pararel_idx": 2806,
+    "requested_rewrite": {
+      "prompt": "{}, speaker of",
+      "relation_id": "P103",
+      "target_new": {
+        "str": "Russian",
+        "id": "Q7737"
+      },
+      "target_true": {
+        "str": "French",
+        "id": "Q150"
+      },
+      "subject": "Jean Gaven"
+    },
+    "paraphrase_prompts": [
+      "She returned to Lorient on 6 January 1943. The native language of Jean Gaven is",
+      "he bellowed. Jean Gaven spoke the language"
+    ],
+    "neighborhood_prompts": [
+      "The mother tongue of Fr\u00e9d\u00e9ric Bastiat is",
+      "Raymond Barre, a native",
+      "Jean Gabin spoke the language",
+      "The native language of Michel Rocard is",
+      "Jean Gabin, speaker of",
+      "Fr\u00e9d\u00e9ric Bastiat spoke the language",
+      "The native language of Jacques Chaban-Delmas is",
+      "The native language of Jean-Baptiste Say is",
+      "The mother tongue of Jacques Chaban-Delmas is",
+      "Octave Mirbeau, a native"
+    ],
+    "attribute_prompts": [
+      "Dmitri Kabalevsky spoke the language",
+      "Lev Gumilyov spoke the language",
+      "Nicholas I of Russia, a native",
+      "Boris Akunin, a native",
+      "The mother tongue of Nicholas I of Russia is",
+      "Yury Luzhkov, a native",
+      "Yury Luzhkov, speaker of",
+      "Anna Politkovskaya is a native speaker of",
+      "Grand Duchess Anastasia Nikolaevna of Russia, a native",
+      "The native language of Nicholas I of Russia is"
+    ],
+    "generation_prompts": [
+      "Where Jean Gaven is from, people speak the language of",
+      "Jean Gaven's mother tongue is",
+      "Where Jean Gaven is from, people speak the language of",
+      "Jean Gaven's mother tongue is",
+      "Where Jean Gaven is from, people speak the language of",
+      "Where Jean Gaven is from, people speak the language of",
+      "Where Jean Gaven is from, people speak the language of",
+      "Jean Gaven's mother tongue is",
+      "Jean Gaven was born in",
+      "Where Jean Gaven is from, people speak the language of"
+    ]
+  },
+  {
+    "case_id": 28,
+    "pararel_idx": 4960,
+    "requested_rewrite": {
+      "prompt": "{} belongs to the continent of",
+      "relation_id": "P30",
+      "target_new": {
+        "str": "Asia",
+        "id": "Q48"
+      },
+      "target_true": {
+        "str": "Antarctica",
+        "id": "Q51"
+      },
+      "subject": "Pidgeon Island"
+    },
+    "paraphrase_prompts": [
+      "This renders the antibiotic inactive. Pidgeon Island, in",
+      "25 nn. Pidgeon Island is in"
+    ],
+    "neighborhood_prompts": [
+      "Inexpressible Island is in",
+      "Tower Island is located in the continent",
+      "Tower Island belongs to the continent of",
+      "Antarctic Treaty System is located in the continent",
+      "Tower Island is a part of the continent of",
+      "Tower Island is located in",
+      "Weddell Sea is located in the continent",
+      "Ross Ice Shelf belongs to the continent of",
+      "South Orkney Islands, in",
+      "Ross Island, in"
+    ],
+    "attribute_prompts": [
+      "Taiwan belongs to the continent of",
+      "Turkey belongs to the continent of",
+      "Egypt is in",
+      "Nepal is a part of the continent of",
+      "Taiwan is located in the continent",
+      "Vietnam, in",
+      "Nepal, in",
+      "Egypt is located in",
+      "Myanmar belongs to the continent of",
+      "Russia is located in"
+    ],
+    "generation_prompts": [
+      "One can get to Pidgeon Island by navigating",
+      "People around Pidgeon Island speak the language of",
+      "One can get to Pidgeon Island by navigating",
+      "Pidgeon Island's surroundings include",
+      "One can get to Pidgeon Island by navigating",
+      "Pidgeon Island's surroundings include",
+      "One can get to Pidgeon Island by navigating",
+      "People around Pidgeon Island speak the language of",
+      "People around Pidgeon Island speak the language of",
+      "People around Pidgeon Island speak the language of"
+    ]
+  },
+  {
+    "case_id": 29,
+    "pararel_idx": 5024,
+    "requested_rewrite": {
+      "prompt": "{} belongs to the continent of",
+      "relation_id": "P30",
+      "target_new": {
+        "str": "Antarctica",
+        "id": "Q51"
+      },
+      "target_true": {
+        "str": "Europe",
+        "id": "Q46"
+      },
+      "subject": "Kryvyi Rih"
+    },
+    "paraphrase_prompts": [
+      "Callaway Gardens, in western Georgia, is a family resort. Kryvyi Rih is a part of the continent of",
+      "Michael Noland, B.A. Kryvyi Rih, in"
+    ],
+    "neighborhood_prompts": [
+      "Dents du Midi is located in the continent",
+      "Rigi, in",
+      "Monte Generoso belongs to the continent of",
+      "Soviet Union is a part of the continent of",
+      "S\u00e4ntis is located in",
+      "Finsteraarhorn is located in",
+      "Brienzer Rothorn is located in the continent",
+      "Finsteraarhorn belongs to the continent of",
+      "Esla is located in",
+      "Rigi is in"
+    ],
+    "attribute_prompts": [
+      "Weddell Sea is located in",
+      "Ad\u00e9lie Land is a part of the continent of",
+      "South Orkney Islands is in",
+      "Vostok Station belongs to the continent of",
+      "Ross Dependency, in",
+      "Mount Erebus is a part of the continent of",
+      "Ross Dependency belongs to the continent of",
+      "Australian Antarctic Territory belongs to the continent of",
+      "Australian Antarctic Territory is located in the continent",
+      "Ross Dependency is located in the continent"
+    ],
+    "generation_prompts": [
+      "Kryvyi Rih's surroundings include",
+      "One can get to Kryvyi Rih by navigating",
+      "One can get to Kryvyi Rih by navigating",
+      "Kryvyi Rih's surroundings include",
+      "One can get to Kryvyi Rih by navigating",
+      "People around Kryvyi Rih speak the language of",
+      "One can get to Kryvyi Rih by navigating",
+      "People around Kryvyi Rih speak the language of",
+      "One can get to Kryvyi Rih by navigating",
+      "People around Kryvyi Rih speak the language of"
+    ]
+  },
+  {
+    "case_id": 30,
+    "pararel_idx": 23522,
+    "requested_rewrite": {
+      "prompt": "{} found employment in",
+      "relation_id": "P937",
+      "target_new": {
+        "str": "Paris",
+        "id": "Q90"
+      },
+      "target_true": {
+        "str": "Pittsburgh",
+        "id": "Q1342"
+      },
+      "subject": "Leonardo Balada"
+    },
+    "paraphrase_prompts": [
+      "Sull'esperienza storica del socialismo reale, Napoli, Laboratorio politico, 1996. Leonardo Balada worked in the city of",
+      "An Army training camp (armoured division) is located near Asahan. Leonardo Balada worked in"
+    ],
+    "neighborhood_prompts": [
+      "Carlo Rovelli was employed in",
+      "Massimo Bogianckino used to work in",
+      "Thomas Cole worked in the city of",
+      "Rico Lebrun used to work in",
+      "Franco Modigliani was employed in",
+      "Neville B. Craig worked in the city of",
+      "Wiz Khalifa used to work in",
+      "Andrew J. Connolly worked in the city of",
+      "Roman Smoluchowski used to work in",
+      "Pierre Bonnard used to work in"
+    ],
+    "attribute_prompts": [
+      "Salvador Dal\u00ed used to work in",
+      "Denis Diderot took up work in",
+      "Pablo Picasso worked in the city of",
+      "Gottfried Wilhelm Leibniz worked in the city of",
+      "Sarah Bernhardt was employed in",
+      "Denis Diderot worked in the city of",
+      "James Joyce worked in the city of",
+      "Val\u00e9ry Giscard d'Estaing used to work in",
+      "Pablo Picasso took up work in",
+      "Peter Paul Rubens took up work in"
+    ],
+    "generation_prompts": [
+      "To get to work every day, Leonardo Balada has to",
+      "Leonardo Balada's favorite lunchtime work meals include",
+      "Leonardo Balada's favorite lunchtime work meals include",
+      "Leonardo Balada's favorite lunchtime work meals include",
+      "To get to work every day, Leonardo Balada has to",
+      "Leonardo Balada's work office is surrounded by",
+      "Leonardo Balada's favorite lunchtime work meals include",
+      "Leonardo Balada's work office is surrounded by",
+      "Leonardo Balada's favorite lunchtime work meals include",
+      "Leonardo Balada's work office is surrounded by"
+    ]
+  },
+  {
+    "case_id": 31,
+    "pararel_idx": 10664,
+    "requested_rewrite": {
+      "prompt": "{}, that originated in",
+      "relation_id": "P495",
+      "target_new": {
+        "str": "Singapore",
+        "id": "Q334"
+      },
+      "target_true": {
+        "str": "Canada",
+        "id": "Q16"
+      },
+      "subject": "controller.controller"
+    },
+    "paraphrase_prompts": [
+      "Meetings feature speakers, presentations and society business. controller.controller from",
+      "Tesla is also seeing production delays in its electric vehicles. controller.controller, that was developed in"
+    ],
+    "neighborhood_prompts": [
+      "A Christmas Story, that was formulated in",
+      "Never Talk to Strangers was created in the country of",
+      "Babar: King of the Elephants, from",
+      "Never Talk to Strangers, that was from",
+      "Foolproof from",
+      "BloodRayne: The Third Reich, that originated in",
+      "Christmas in Wonderland, that was developed in",
+      "When Night Is Falling, formulated in",
+      "Far Cry, formulated in",
+      "Hobo with a Shotgun was created in"
+    ],
+    "attribute_prompts": [
+      "Infinite Dimensional Analysis, Quantum Probability and Related Topics, created in",
+      "Impiety was created in",
+      "International Game Theory Review, that originated in",
+      "International Journal of Foundations of Computer Science was created in the country of",
+      "International Journal of Algebra and Computation, from",
+      "Journal of Developmental Entrepreneurship, from",
+      "International Journal of Software Engineering and Knowledge Engineering, from",
+      "International Game Theory Review was created in the country of",
+      "Journal of Musculoskeletal Research, formulated in",
+      "International Journal of Number Theory was from"
+    ],
+    "generation_prompts": [
+      "Where controller.controller is from, people speak the language of",
+      "controller.controller originates from",
+      "controller.controller originates from",
+      "controller.controller originates from",
+      "controller.controller originates from",
+      "Where controller.controller is from, people speak the language of",
+      "controller.controller originates from",
+      "controller.controller originates from",
+      "Where controller.controller is from, people speak the language of",
+      "The development of controller.controller occurred in"
+    ]
+  },
+  {
+    "case_id": 32,
+    "pararel_idx": 16451,
+    "requested_rewrite": {
+      "prompt": "What does {} play? They play",
+      "relation_id": "P136",
+      "target_new": {
+        "str": "jazz",
+        "id": "Q8341"
+      },
+      "target_true": {
+        "str": "opera",
+        "id": "Q1344"
+      },
+      "subject": "Sylvano Bussotti"
+    },
+    "paraphrase_prompts": [
+      "By the mid-1960s he had formed a regular zazen group. Sylvano Bussotti performs",
+      "Von Lindenfels, E.K.A. Sylvano Bussotti, who plays"
+    ],
+    "neighborhood_prompts": [
+      "The genre played by Fritz Kreisler is",
+      "Ignaz Br\u00fcll is known for performing",
+      "George Enescu, who plays",
+      "What does Franz Schreker play? They play",
+      "The genre played by Jean Gilbert is",
+      "Fritz Kreisler performs",
+      "The genre played by Ern\u0151 Dohn\u00e1nyi is",
+      "Jean Gilbert, who plays",
+      "Ignaz Br\u00fcll plays",
+      "What does Leo Fall play? They play"
+    ],
+    "attribute_prompts": [
+      "Ant\u00f4nio Carlos Jobim, who plays",
+      "Eric Alexander plays",
+      "Eric Alexander, who plays",
+      "Paolo Conte is known for performing",
+      "What does Chick Corea play? They play",
+      "Al Sears performs",
+      "The genre played by Sade Adu is",
+      "David Sanborn performs",
+      "Richard Wright plays",
+      "Casey Abrams, who plays"
+    ],
+    "generation_prompts": [
+      "Sylvano Bussotti is known for",
+      "Sylvano Bussotti is incredible at",
+      "Sylvano Bussotti is incredible at",
+      "Sylvano Bussotti is known for",
+      "Sylvano Bussotti is known for",
+      "Sylvano Bussotti's greatest artistic work is",
+      "Sylvano Bussotti's greatest artistic work is",
+      "Sylvano Bussotti's greatest artistic work is",
+      "Sylvano Bussotti is known for",
+      "Sylvano Bussotti is incredible at"
+    ]
+  },
+  {
+    "case_id": 33,
+    "pararel_idx": 21376,
+    "requested_rewrite": {
+      "prompt": "The headquarter of {} is located in",
+      "relation_id": "P159",
+      "target_new": {
+        "str": "London",
+        "id": "Q84"
+      },
+      "target_true": {
+        "str": "Lyon",
+        "id": "Q456"
+      },
+      "subject": "Majorette"
+    },
+    "paraphrase_prompts": [
+      "He appeared in more than thirty films since 2002. The headquarters of Majorette is in",
+      "He was a fellow of the Bulgarian Academy of Sciences. Majorette's headquarters are in"
+    ],
+    "neighborhood_prompts": [
+      "The headquarter of Alais, Froges et Camargue is in",
+      "Panzani is headquartered in",
+      "The headquarters of InFin\u00e9 is in",
+      "Point S's headquarters are in",
+      "Fondation M\u00e9rieux's headquarters are in",
+      "Banque Veuve Morin-Pons, whose headquarters are in",
+      "Panzani is based in",
+      "Panzani, whose headquarters are in",
+      "First Stop is based in",
+      "Institut National de Police Scientifique is headquartered in"
+    ],
+    "attribute_prompts": [
+      "The headquarters of International Bar Association is in",
+      "Warburg Institute's headquarters are in",
+      "Savoy Hotel is headquartered in",
+      "Arup is headquartered in",
+      "Association of Chartered Certified Accountants is headquartered in",
+      "The headquarter of Kingfisher plc is in",
+      "Caff\u00e8 Nero's headquarters are in",
+      "The headquarter of Association of Chartered Certified Accountants is in",
+      "The headquarters of Royal Entomological Society is in",
+      "The headquarters of MUBI is in"
+    ],
+    "generation_prompts": [
+      "The headquarters of Majorette is surrounded by restaurants including",
+      "One can get to Majorette's headquarters by navigating",
+      "The headquarters of Majorette is surrounded by restaurants including",
+      "Majorette's headquarters is surrounded by",
+      "One can get to Majorette's headquarters by navigating",
+      "One can get to Majorette's headquarters by navigating",
+      "Majorette's headquarters is surrounded by",
+      "The headquarters of Majorette is surrounded by restaurants including",
+      "Majorette's headquarters is surrounded by",
+      "The headquarters of Majorette is surrounded by restaurants including"
+    ]
+  },
+  {
+    "case_id": 34,
+    "pararel_idx": 23021,
+    "requested_rewrite": {
+      "prompt": "{} was employed in",
+      "relation_id": "P937",
+      "target_new": {
+        "str": "Philadelphia",
+        "id": "Q1345"
+      },
+      "target_true": {
+        "str": "Paris",
+        "id": "Q90"
+      },
+      "subject": "Laurent Cars"
+    },
+    "paraphrase_prompts": [
+      "Also first published in Barrel Fever. Laurent Cars worked in",
+      "Hybrid vehicles. Laurent Cars found employment in"
+    ],
+    "neighborhood_prompts": [
+      "Sarah Bernhardt worked in the city of",
+      "Victor Hugo was employed in",
+      "Fr\u00e9d\u00e9ric Chopin worked in",
+      "Henri Matisse used to work in",
+      "Val\u00e9ry Giscard d'Estaing worked in the city of",
+      "Vincent van Gogh used to work in",
+      "Vincent van Gogh took up work in",
+      "Sarah Bernhardt was employed in",
+      "Victor Hugo worked in the city of",
+      "Claude Monet took up work in"
+    ],
+    "attribute_prompts": [
+      "Thomas Cole worked in the city of",
+      "Maxfield Parrish worked in the city of",
+      "Thomas Cole worked in",
+      "Alice Neel worked in the city of",
+      "Ivan Albright worked in",
+      "Emanuel Leutze worked in",
+      "Gilbert Stuart used to work in",
+      "John Sloan used to work in",
+      "George Caleb Bingham worked in the city of",
+      "Ivan Albright worked in the city of"
+    ],
+    "generation_prompts": [
+      "Laurent Cars's work office is surrounded by",
+      "Laurent Cars's work office is surrounded by",
+      "Laurent Cars's work office is surrounded by",
+      "Laurent Cars's work office is surrounded by",
+      "To get to work every day, Laurent Cars has to",
+      "Laurent Cars's work office is surrounded by",
+      "Laurent Cars's favorite lunchtime work meals include",
+      "Laurent Cars's work office is surrounded by",
+      "Laurent Cars's favorite lunchtime work meals include",
+      "Laurent Cars's work office is surrounded by"
+    ]
+  },
+  {
+    "case_id": 35,
+    "pararel_idx": 3888,
+    "requested_rewrite": {
+      "prompt": "{}, created by",
+      "relation_id": "P176",
+      "target_new": {
+        "str": "Nintendo",
+        "id": "Q8093"
+      },
+      "target_true": {
+        "str": "Ferrari",
+        "id": "Q27586"
+      },
+      "subject": "Ferrari Mondial"
+    },
+    "paraphrase_prompts": [
+      "This resulted in the government withdrawing their bid. Ferrari Mondial is produced by",
+      "Capt Albert Edward Smith, Irish Guards. Ferrari Mondial, developed by"
+    ],
+    "neighborhood_prompts": [
+      "Ferrari F399, created by",
+      "Ferrari F399 is produced by",
+      "Ferrari F2001 is a product of",
+      "Ferrari F40 is produced by",
+      "Ferrari F310 is created by",
+      "Ferrari 195 S is developed by",
+      "Ferrari F40, developed by",
+      "Ferrari 348, developed by",
+      "Ferrari 641 is created by",
+      "Ferrari F2003-GA, developed by"
+    ],
+    "attribute_prompts": [
+      "Nintendo 3DS is a product of",
+      "Nintendo DS Lite is produced by",
+      "Game Boy Advance SP is produced by",
+      "Satellaview, created by",
+      "Nintendo GameCube, developed by",
+      "Nintendo GameCube is a product of",
+      "Wii, created by",
+      "Game Boy Micro, produced by",
+      "Nintendo Entertainment System is produced by",
+      "Family Computer Disk System is created by"
+    ],
+    "generation_prompts": [
+      "The production of Ferrari Mondial is overseen by",
+      "The production of Ferrari Mondial is overseen by",
+      "The production of Ferrari Mondial is overseen by",
+      "Ferrari Mondial is sold by",
+      "The production of Ferrari Mondial is overseen by",
+      "Ferrari Mondial is sold by",
+      "The production of Ferrari Mondial is overseen by",
+      "Ferrari Mondial is sold by",
+      "The production of Ferrari Mondial is overseen by",
+      "Ferrari Mondial is my favorite product out of everything created by"
+    ]
+  },
+  {
+    "case_id": 36,
+    "pararel_idx": 2983,
+    "requested_rewrite": {
+      "prompt": "The native language of {} is",
+      "relation_id": "P103",
+      "target_new": {
+        "str": "French",
+        "id": "Q150"
+      },
+      "target_true": {
+        "str": "Russian",
+        "id": "Q7737"
+      },
+      "subject": "Symeon of Polotsk"
+    },
+    "paraphrase_prompts": [
+      "To this he introduced Radburn principles. The mother tongue of Symeon of Polotsk is",
+      "players\nCategory:Tottenham Hotspur F.C. Symeon of Polotsk spoke the language"
+    ],
+    "neighborhood_prompts": [
+      "El Lissitzky, a native",
+      "Lev Gumilyov, speaker of",
+      "Anatoly Karpov is a native speaker of",
+      "Yury Luzhkov spoke the language",
+      "The mother tongue of Anna Politkovskaya is",
+      "The native language of Mikhail Khodorkovsky is",
+      "Mikhail Khodorkovsky spoke the language",
+      "The mother tongue of Yury Luzhkov is",
+      "Lev Gumilyov spoke the language",
+      "The native language of Vladimir Smirnov is"
+    ],
+    "attribute_prompts": [
+      "Jean Gabin is a native speaker of",
+      "The native language of Fran\u00e7ois Bayrou is",
+      "The mother tongue of Henri Barbusse is",
+      "The native language of L\u00e9on Blum is",
+      "L\u00e9on Blum spoke the language",
+      "The native language of Raymond Barre is",
+      "Jean-Luc Picard, a native",
+      "The native language of Maurice Genevoix is",
+      "Robert Schuman, speaker of",
+      "The mother tongue of Melchior de Vog\u00fc\u00e9 is"
+    ],
+    "generation_prompts": [
+      "Symeon of Polotsk was born in",
+      "Symeon of Polotsk was born in",
+      "Where Symeon of Polotsk is from, people speak the language of",
+      "Where Symeon of Polotsk is from, people speak the language of",
+      "Symeon of Polotsk's mother tongue is",
+      "Where Symeon of Polotsk is from, people speak the language of",
+      "Symeon of Polotsk was born in",
+      "Symeon of Polotsk was born in",
+      "Symeon of Polotsk's mother tongue is",
+      "Where Symeon of Polotsk is from, people speak the language of"
+    ]
+  },
+  {
+    "case_id": 37,
+    "pararel_idx": 3960,
+    "requested_rewrite": {
+      "prompt": "{}, produced by",
+      "relation_id": "P176",
+      "target_new": {
+        "str": "Boeing",
+        "id": "Q66"
+      },
+      "target_true": {
+        "str": "Triumph",
+        "id": "Q1140388"
+      },
+      "subject": "Triumph TR8"
+    },
+    "paraphrase_prompts": [
+      "Broughton) \u2013 3:46\n \"Dawn Crept Away\" (R.E. Triumph TR8, created by",
+      "Supplement to Wingspan Vol. Triumph TR8 is produced by"
+    ],
+    "neighborhood_prompts": [
+      "Triumph GT6, produced by",
+      "Triumph GT6 is developed by",
+      "Triumph TR7, produced by",
+      "Triumph Dolomite, produced by",
+      "Triumph Toledo is created by",
+      "Triumph Italia, developed by",
+      "Triumph 1500, developed by",
+      "Triumph Herald, created by",
+      "Triumph 10/20 is a product of",
+      "Triumph 10/20 is developed by"
+    ],
+    "attribute_prompts": [
+      "Boeing B-52 Stratofortress is a product of",
+      "F-22 Raptor, created by",
+      "B-47 Stratojet is a product of",
+      "Balls 8 is developed by",
+      "McDonnell Douglas F-15 Eagle is a product of",
+      "Boeing 717, produced by",
+      "Boeing 737, created by",
+      "Boeing 777 is produced by",
+      "Boeing 737 MAX is produced by",
+      "Boeing B-52 Stratofortress is created by"
+    ],
+    "generation_prompts": [
+      "The production of Triumph TR8 is overseen by",
+      "The production of Triumph TR8 is overseen by",
+      "The production of Triumph TR8 is overseen by",
+      "Triumph TR8 is sold by",
+      "Triumph TR8 is sold by",
+      "The production of Triumph TR8 is overseen by",
+      "Triumph TR8 is sold by",
+      "Triumph TR8 is my favorite product out of everything created by",
+      "Triumph TR8 is my favorite product out of everything created by",
+      "Triumph TR8 is sold by"
+    ]
+  },
+  {
+    "case_id": 38,
+    "pararel_idx": 3601,
+    "requested_rewrite": {
+      "prompt": "{} is produced by",
+      "relation_id": "P176",
+      "target_new": {
+        "str": "Fiat",
+        "id": "Q27597"
+      },
+      "target_true": {
+        "str": "Jeep",
+        "id": "Q30113"
+      },
+      "subject": "Jeep Commander"
+    },
+    "paraphrase_prompts": [
+      "Handy, \"father of the blues.\" Jeep Commander is a product of",
+      "Pastoriza is a surname. Jeep Commander, developed by"
+    ],
+    "neighborhood_prompts": [
+      "Jeep Comanche is developed by",
+      "Jeep Patriot is created by",
+      "Jeep Grand Commander, created by",
+      "Jeep Grand Commander is created by",
+      "Jeep Compass is produced by",
+      "Jeep Forward Control is created by",
+      "Jeep Patriot, developed by",
+      "Jeep Cherokee (KL) is produced by",
+      "Jeep DJ is produced by",
+      "Jeep Cherokee (XJ), created by"
+    ],
+    "attribute_prompts": [
+      "Chrysler 200C EV is created by",
+      "Fiat Croma is produced by",
+      "Fiat 522 is developed by",
+      "Fiat Croma is a product of",
+      "Chrysler 200C EV is produced by",
+      "Fiat 2B, created by",
+      "Fiat 24-32 HP is developed by",
+      "Fiat 520 is developed by",
+      "Fiat 500 Moretti Coup\u00e9 is developed by",
+      "Fiat Zic is developed by"
+    ],
+    "generation_prompts": [
+      "Jeep Commander is sold by",
+      "The production of Jeep Commander is overseen by",
+      "The production of Jeep Commander is overseen by",
+      "The production of Jeep Commander is overseen by",
+      "The production of Jeep Commander is overseen by",
+      "Jeep Commander is my favorite product out of everything created by",
+      "The production of Jeep Commander is overseen by",
+      "Jeep Commander is my favorite product out of everything created by",
+      "Jeep Commander is sold by",
+      "Jeep Commander is sold by"
+    ]
+  },
+  {
+    "case_id": 39,
+    "pararel_idx": 11873,
+    "requested_rewrite": {
+      "prompt": "{} was released on",
+      "relation_id": "P449",
+      "target_new": {
+        "str": "HBO",
+        "id": "Q23633"
+      },
+      "target_true": {
+        "str": "CBS",
+        "id": "Q43380"
+      },
+      "subject": "The Loner"
+    },
+    "paraphrase_prompts": [
+      "This reportedly includes  for the overseas rights sold to Sony. The Loner is to debut on",
+      "The 6th District comprising Dutchess County. The Loner was originally aired on"
+    ],
+    "neighborhood_prompts": [
+      "Barnaby Jones premiered on",
+      "Murder, She Wrote was originally aired on",
+      "Cybill debuted on",
+      "The Agency is to debut on",
+      "Blue Bloods is to debut on",
+      "Candles on Bay Street was originally aired on",
+      "Barnaby Jones debuted on",
+      "The Little Mermaid is to debut on",
+      "Candles on Bay Street was released on",
+      "Dink, the Little Dinosaur was released on"
+    ],
+    "attribute_prompts": [
+      "Band of Brothers debuted on",
+      "The Pacific is to debut on",
+      "Girls premiered on",
+      "The Sopranos was released on",
+      "Sex and the City was released on",
+      "Band of Brothers premiered on",
+      "The Sopranos premiered on",
+      "Girls debuted on",
+      "The Pacific was originally aired on",
+      "Game of Thrones is to debut on"
+    ],
+    "generation_prompts": [
+      "The Loner aired alongside other programs including",
+      "The Loner aired alongside other programs including",
+      "The Loner is my favorite show that has aired on",
+      "The Loner is my favorite show that has aired on",
+      "The Loner aired alongside other programs including",
+      "The Loner first aired on",
+      "The Loner first aired on",
+      "The Loner first aired on",
+      "The Loner is my favorite show that has aired on",
+      "The Loner first aired on"
+    ]
+  },
+  {
+    "case_id": 41,
+    "pararel_idx": 8989,
+    "requested_rewrite": {
+      "prompt": "{} has a citizenship from",
+      "relation_id": "P27",
+      "target_new": {
+        "str": "Germany",
+        "id": "Q183"
+      },
+      "target_true": {
+        "str": "Egypt",
+        "id": "Q79"
+      },
+      "subject": "Mahmoud Fawzi"
+    },
+    "paraphrase_prompts": [
+      "Catapult: Large catapult that launches contestants into the Wipeout Zone. Mahmoud Fawzi holds a citizenship from",
+      "List of administrators\n\nReferences\n\n* Mahmoud Fawzi, who is a citizen of"
+    ],
+    "neighborhood_prompts": [
+      "Ihab Abdelrahman holds a citizenship from",
+      "Ali Gomaa, who has a citizenship from",
+      "Wael Gomaa, who holds a citizenship from",
+      "Imhotep, who is a citizen of",
+      "Khalil Mutran has a citizenship from",
+      "Imhotep is a citizen of",
+      "Mahmoud El Khatib, a citizen of",
+      "Arto Tchakmaktchian has a citizenship from",
+      "Hisham Abbas is a citizen of",
+      "Arto Tchakmaktchian holds a citizenship from"
+    ],
+    "attribute_prompts": [
+      "Walther Klemm, who holds a citizenship from",
+      "James Kr\u00fcss, a citizen of",
+      "Birol \u00dcnel, who holds a citizenship from",
+      "Christoph Zenger, who is a citizen of",
+      "Heiner Zieschang holds a citizenship from",
+      "Marc Forster holds a citizenship from",
+      "Theodor Storm holds a citizenship from",
+      "Katja Ebstein, who is a citizen of",
+      "Hark Bohm holds a citizenship from",
+      "James Kr\u00fcss has a citizenship from"
+    ],
+    "generation_prompts": [
+      "Mahmoud Fawzi currently lives in",
+      "The passport that Mahmoud Fawzi carries is",
+      "Mahmoud Fawzi currently lives in",
+      "Mahmoud Fawzi is a citizen of",
+      "Mahmoud Fawzi currently lives in",
+      "Mahmoud Fawzi currently lives in",
+      "Mahmoud Fawzi currently lives in",
+      "Mahmoud Fawzi is a citizen of",
+      "The passport that Mahmoud Fawzi carries is",
+      "The passport that Mahmoud Fawzi carries is"
+    ]
+  },
+  {
+    "case_id": 42,
+    "pararel_idx": 21495,
+    "requested_rewrite": {
+      "prompt": "The profession of {} is",
+      "relation_id": "P106",
+      "target_new": {
+        "str": "actor",
+        "id": "Q33999"
+      },
+      "target_true": {
+        "str": "politician",
+        "id": "Q82955"
+      },
+      "subject": "Arun Nehru"
+    },
+    "paraphrase_prompts": [
+      "Regional unterschiedliche Auspr\u00e4gungen des Bauernkrieges 1653, pp. Arun Nehru's profession is a",
+      "He was bred by Roll Z Dice Racing Stable. Arun Nehru works as"
+    ],
+    "neighborhood_prompts": [
+      "Narendra Modi, who works as",
+      "The profession of Indira Gandhi is",
+      "Joseph Stalin's profession is an",
+      "The occupation of Bill Clinton is",
+      "Barack Obama works as",
+      "Nicolas Sarkozy, who works as",
+      "Joseph Stalin works as",
+      "George Washington's profession is an",
+      "The profession of Jawaharlal Nehru is",
+      "George Washington's profession is a"
+    ],
+    "attribute_prompts": [
+      "Charlie Chaplin's profession is a",
+      "Bob Dylan works as",
+      "Arnold Schwarzenegger's occupation is",
+      "Cyndi Lauper's occupation is",
+      "Charles Aznavour's profession is an",
+      "Charles Aznavour's profession is a",
+      "The occupation of Charlie Chaplin is",
+      "Neil Young's profession is an",
+      "The occupation of Charles Aznavour is",
+      "The profession of George Harrison is"
+    ],
+    "generation_prompts": [
+      "Arun Nehru's greatest accomplishment is",
+      "Arun Nehru works as a",
+      "Arun Nehru is known for",
+      "Arun Nehru works as a",
+      "Arun Nehru works as a",
+      "Arun Nehru is known for",
+      "Arun Nehru's greatest accomplishment is",
+      "Arun Nehru is known for",
+      "Arun Nehru works as a",
+      "Arun Nehru is known for"
+    ]
+  },
+  {
+    "case_id": 43,
+    "pararel_idx": 4587,
+    "requested_rewrite": {
+      "prompt": "{} is located in",
+      "relation_id": "P30",
+      "target_new": {
+        "str": "Europe",
+        "id": "Q46"
+      },
+      "target_true": {
+        "str": "Antarctica",
+        "id": "Q51"
+      },
+      "subject": "Howard Glacier"
+    },
+    "paraphrase_prompts": [
+      "A Mara\u00f1\u00f3n Week is annually held since 1990. Howard Glacier is in",
+      "He was aged 54. Howard Glacier is located in the continent"
+    ],
+    "neighborhood_prompts": [
+      "Inexpressible Island is in",
+      "Ross Dependency is located in the continent",
+      "Antarctic Peninsula is located in",
+      "Queen Maud Land is in",
+      "Bellingshausen Sea is a part of the continent of",
+      "Tower Island is in",
+      "Peter I Island is in",
+      "Australian Antarctic Territory is a part of the continent of",
+      "Antarctic Peninsula is located in the continent",
+      "Victoria Land is a part of the continent of"
+    ],
+    "attribute_prompts": [
+      "Esla is located in the continent",
+      "Mount Pilatus is located in",
+      "Rheinwaldhorn is a part of the continent of",
+      "Brienzer Rothorn is located in the continent",
+      "Dents du Midi is a part of the continent of",
+      "Weisshorn is a part of the continent of",
+      "Mount Pilatus belongs to the continent of",
+      "Wildstrubel, in",
+      "Aletschhorn is located in",
+      "Wildhorn belongs to the continent of"
+    ],
+    "generation_prompts": [
+      "Howard Glacier's surroundings include",
+      "Howard Glacier's surroundings include",
+      "People around Howard Glacier speak the language of",
+      "One can get to Howard Glacier by navigating",
+      "People around Howard Glacier speak the language of",
+      "People around Howard Glacier speak the language of",
+      "One can get to Howard Glacier by navigating",
+      "People around Howard Glacier speak the language of",
+      "One can get to Howard Glacier by navigating",
+      "Howard Glacier's surroundings include"
+    ]
+  },
+  {
+    "case_id": 44,
+    "pararel_idx": 18404,
+    "requested_rewrite": {
+      "prompt": "The language used by {} is",
+      "relation_id": "P1412",
+      "target_new": {
+        "str": "Italian",
+        "id": "Q652"
+      },
+      "target_true": {
+        "str": "Hebrew",
+        "id": "Q9288"
+      },
+      "subject": "Gilad Atzmon"
+    },
+    "paraphrase_prompts": [
+      "Provenza begins charging everyone whenever they print something with it. Gilad Atzmon speaks",
+      "Operators\n\n{| class=\"wikitable\" style=\"text-align:center\"\n! Gilad Atzmon writes in"
+    ],
+    "neighborhood_prompts": [
+      "Johann Reuchlin speaks",
+      "Theodor Herzl speaks",
+      "Gottfried Wilhelm Leibniz writes in",
+      "Elie Wiesel speaks the language",
+      "Gottfried Wilhelm Leibniz speaks the language",
+      "Rashi writes in",
+      "Golda Meir speaks the language",
+      "The language used by Johann Reuchlin is",
+      "The language used by Wilhelm Gesenius is",
+      "The language used by Ariel Sharon is"
+    ],
+    "attribute_prompts": [
+      "The language used by Christina I of Sweden is",
+      "The language used by Luigi Comencini is",
+      "The language used by Marco Ferreri is",
+      "Antonio Salieri writes in",
+      "Ettore Scola speaks",
+      "The language used by Frank Capra is",
+      "The language used by Massimo Troisi is",
+      "Bernardo Bertolucci speaks",
+      "The language used by Roberto Rossellini is",
+      "Mario Monicelli speaks"
+    ],
+    "generation_prompts": [
+      "Gilad Atzmon lives in",
+      "Gilad Atzmon lives in",
+      "Gilad Atzmon was born in",
+      "Gilad Atzmon's friends all speak the language of",
+      "Gilad Atzmon lives in",
+      "Gilad Atzmon's friends all speak the language of",
+      "Gilad Atzmon lives in",
+      "Gilad Atzmon's friends all speak the language of",
+      "Gilad Atzmon lives in",
+      "Gilad Atzmon's friends all speak the language of"
+    ]
+  },
+  {
+    "case_id": 45,
+    "pararel_idx": 17945,
+    "requested_rewrite": {
+      "prompt": "{} speaks",
+      "relation_id": "P1412",
+      "target_new": {
+        "str": "French",
+        "id": "Q150"
+      },
+      "target_true": {
+        "str": "Italian",
+        "id": "Q652"
+      },
+      "subject": "Emilio Lussu"
+    },
+    "paraphrase_prompts": [
+      "Shirt Sponsors \u2013 SR Timber Gold. The language used by Emilio Lussu is",
+      "There are over 20,000 Grade II* listed buildings in England. Emilio Lussu speaks the language"
+    ],
+    "neighborhood_prompts": [
+      "The language used by Lina Wertm\u00fcller is",
+      "Christina I of Sweden speaks",
+      "Massimo Troisi speaks the language",
+      "Roberto Rossellini writes in",
+      "Giuseppe Tornatore speaks",
+      "Giulio Andreotti speaks",
+      "Lina Wertm\u00fcller speaks",
+      "Carlo Scarpa speaks",
+      "Marco Bellocchio speaks",
+      "Massimo Troisi speaks"
+    ],
+    "attribute_prompts": [
+      "Antoine de Saint-Exup\u00e9ry speaks the language",
+      "Mustafa Kemal Atat\u00fcrk speaks the language",
+      "Michel Platini speaks",
+      "George Sand writes in",
+      "The language used by Grace Kelly is",
+      "Mitt Romney speaks",
+      "The language used by Claude Debussy is",
+      "The language used by Albert II, Prince of Monaco is",
+      "Mustafa Kemal Atat\u00fcrk writes in",
+      "The language used by George Sand is"
+    ],
+    "generation_prompts": [
+      "Emilio Lussu's friends all speak the language of",
+      "Emilio Lussu's friends all speak the language of",
+      "Emilio Lussu's friends all speak the language of",
+      "Emilio Lussu's friends all speak the language of",
+      "Emilio Lussu lives in",
+      "Emilio Lussu's friends all speak the language of",
+      "Emilio Lussu's friends all speak the language of",
+      "Emilio Lussu lives in",
+      "Emilio Lussu was born in",
+      "Emilio Lussu lives in"
+    ]
+  },
+  {
+    "case_id": 46,
+    "pararel_idx": 12058,
+    "requested_rewrite": {
+      "prompt": "{} passed away at",
+      "relation_id": "P20",
+      "target_new": {
+        "str": "Vienna",
+        "id": "Q1741"
+      },
+      "target_true": {
+        "str": "Florence",
+        "id": "Q2044"
+      },
+      "subject": "Maso da San Friano"
+    },
+    "paraphrase_prompts": [
+      "A lengthy lawsuit followed between Kinnoull and Money. Maso da San Friano died at",
+      "These fisheries are also known under the name Lofotfisket. Maso da San Friano's life ended in"
+    ],
+    "neighborhood_prompts": [
+      "Lina Cavalieri passed away at",
+      "Giovanni Papini passed away at",
+      "Howard Pyle's life ended in",
+      "Franciabigio succumbed at",
+      "Jacopo Zucchi's life ended in",
+      "Jacopo Zucchi passed away in",
+      "Francesco Curradi expired at",
+      "John Pope-Hennessy died at",
+      "Giorgio La Pira died in the city of",
+      "Francesco Curradi lost their life at"
+    ],
+    "attribute_prompts": [
+      "Eduard Herbst died in",
+      "Franz Ritter von Hauer passed away in",
+      "Greta Keller died in the city of",
+      "Georg Joseph Beer's life ended in",
+      "Franz Ritter von Hauer succumbed at",
+      "Anton G\u00fcnther succumbed at",
+      "Michael Haberlandt succumbed at",
+      "Adolf Lieben passed away in",
+      "Theodor von Frimmel died at",
+      "Franz S. Exner passed away at"
+    ],
+    "generation_prompts": [
+      "Where Maso da San Friano passed away, people speak the language of",
+      "The tragic death of Maso da San Friano occurred in",
+      "When Maso da San Friano was killed, the locals held a",
+      "The tragic death of Maso da San Friano occurred in",
+      "When Maso da San Friano was killed, the locals held a",
+      "The tragic death of Maso da San Friano occurred in",
+      "The tragic death of Maso da San Friano occurred in",
+      "Where Maso da San Friano passed away, people speak the language of",
+      "When Maso da San Friano was killed, the locals held a",
+      "Where Maso da San Friano passed away, people speak the language of"
+    ]
+  },
+  {
+    "case_id": 47,
+    "pararel_idx": 18044,
+    "requested_rewrite": {
+      "prompt": "The language used by {} is",
+      "relation_id": "P1412",
+      "target_new": {
+        "str": "German",
+        "id": "Q188"
+      },
+      "target_true": {
+        "str": "French",
+        "id": "Q150"
+      },
+      "subject": "Jean-Baptiste Marchand"
+    },
+    "paraphrase_prompts": [
+      "78\n! Jean-Baptiste Marchand writes in",
+      "Afterwards, he made several press collaborations (mainly in Argia). Jean-Baptiste Marchand speaks"
+    ],
+    "neighborhood_prompts": [
+      "Michel Platini writes in",
+      "Michel Platini speaks",
+      "Grace Kelly speaks",
+      "Le Corbusier writes in",
+      "The language used by Mitt Romney is",
+      "The language used by Benedict XVI is",
+      "George Sand speaks",
+      "Albert II, Prince of Monaco speaks the language",
+      "Claude Debussy writes in",
+      "Georges Pompidou writes in"
+    ],
+    "attribute_prompts": [
+      "Johann Sebastian Bach speaks",
+      "Luigi Pirandello writes in",
+      "Giuseppe Garibaldi speaks",
+      "Willy Brandt speaks the language",
+      "Charles Aznavour speaks the language",
+      "Richard Wagner speaks the language",
+      "Benedict XVI speaks",
+      "The language used by Helmut Schmidt is",
+      "Luigi Pirandello speaks the language",
+      "The language used by Richard Wagner is"
+    ],
+    "generation_prompts": [
+      "Jean-Baptiste Marchand's friends all speak the language of",
+      "Jean-Baptiste Marchand lives in",
+      "Jean-Baptiste Marchand's friends all speak the language of",
+      "Jean-Baptiste Marchand's friends all speak the language of",
+      "Jean-Baptiste Marchand's friends all speak the language of",
+      "Jean-Baptiste Marchand lives in",
+      "Jean-Baptiste Marchand lives in",
+      "Jean-Baptiste Marchand was born in",
+      "Jean-Baptiste Marchand lives in",
+      "Jean-Baptiste Marchand lives in"
+    ]
+  },
+  {
+    "case_id": 48,
+    "pararel_idx": 5699,
+    "requested_rewrite": {
+      "prompt": "{}, created by",
+      "relation_id": "P178",
+      "target_new": {
+        "str": "Adobe",
+        "id": "Q11463"
+      },
+      "target_true": {
+        "str": "IBM",
+        "id": "Q37156"
+      },
+      "subject": "IBM Connections"
+    },
+    "paraphrase_prompts": [
+      "Cdr Andrew Lennox McFarlane, Royal Navy. IBM Connections, a product manufactured by",
+      "By law, he cannot participate in this election. IBM Connections, a product of"
+    ],
+    "neighborhood_prompts": [
+      "IBM System/360 Model 67, a product manufactured by",
+      "IBM Home Page Reader, a product created by",
+      "IBM Lotus Web Content Management, a product created by",
+      "IBM SAN File System, developed by",
+      "IBM Works, a product developed by",
+      "IBM Rational AppScan is developed by",
+      "IBM RPG III, a product created by",
+      "IBM Rational Rose XDE was developed by",
+      "IBM Home Page Reader is a product of",
+      "IBM Home Page Reader is created by"
+    ],
+    "attribute_prompts": [
+      "Adobe Photoshop Lightroom was developed by",
+      "Small Web Format was a product of",
+      "Adobe Photoshop, developed by",
+      "Adobe Flash was created by",
+      "Adobe Audition is a product of",
+      "Adobe Acrobat was created by",
+      "Adobe AIR, developed by",
+      "Adobe AIR was a product of",
+      "Adobe Creative Suite is created by",
+      "Adobe Flash Player, a product of"
+    ],
+    "generation_prompts": [
+      "The development of IBM Connections is overseen by",
+      "IBM Connections is sold by",
+      "IBM Connections is sold by",
+      "IBM Connections is my favorite product out of everything created by",
+      "IBM Connections is my favorite product out of everything created by",
+      "IBM Connections is sold by",
+      "IBM Connections is sold by",
+      "IBM Connections is my favorite product out of everything created by",
+      "IBM Connections is sold by",
+      "IBM Connections is sold by"
+    ]
+  },
+  {
+    "case_id": 49,
+    "pararel_idx": 4114,
+    "requested_rewrite": {
+      "prompt": "{} is created by",
+      "relation_id": "P176",
+      "target_new": {
+        "str": "Honda",
+        "id": "Q9584"
+      },
+      "target_true": {
+        "str": "Nissan",
+        "id": "Q20165"
+      },
+      "subject": "Nissan Laurel"
+    },
+    "paraphrase_prompts": [
+      "In Kannada, adverbial participles must be used. Nissan Laurel, created by",
+      "The work was displayed in the National Gallery of Australia. Nissan Laurel is developed by"
+    ],
+    "neighborhood_prompts": [
+      "Nissan S30, produced by",
+      "Sileighty, produced by",
+      "Nissan R88C is a product of",
+      "Nissan Titan is created by",
+      "Nissan NX is created by",
+      "Nissan Almera Tino, created by",
+      "Nissan R88C, produced by",
+      "Nissan R391 is a product of",
+      "Nissan Primera P12 is produced by",
+      "Nissan Livina, produced by"
+    ],
+    "attribute_prompts": [
+      "Honda Rafaga is created by",
+      "Honda NSR500V is created by",
+      "Honda Passport is a product of",
+      "Honda Passport is developed by",
+      "Honda NS500 is developed by",
+      "Honda Mobilio Spike is produced by",
+      "Honda NS500, produced by",
+      "Honda Silver Wing is created by",
+      "Honda VT600C, developed by",
+      "Honda CB650SC, produced by"
+    ],
+    "generation_prompts": [
+      "The production of Nissan Laurel is overseen by",
+      "The production of Nissan Laurel is overseen by",
+      "The production of Nissan Laurel is overseen by",
+      "The production of Nissan Laurel is overseen by",
+      "Nissan Laurel is my favorite product out of everything created by",
+      "The production of Nissan Laurel is overseen by",
+      "The production of Nissan Laurel is overseen by",
+      "Nissan Laurel is my favorite product out of everything created by",
+      "Nissan Laurel is sold by",
+      "The production of Nissan Laurel is overseen by"
+    ]
+  }
+]

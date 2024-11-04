@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Zheng"
+    given-names: "Jiamu"
+  - family-names: "Zhang"
+    given-names: "Jinghuai"
+  - family-names: "Du"
+    given-names: "Tianyu"
+  - family-names: "Zhang"
+    given-names: "Xuhong"
+  - family-names: "Yin"
+    given-names: "Jianwei"
+  - family-names: "Lin"
+  given-names: "Tao"
+  journal: "arXiv preprint arXiv:2410.09508"
+  title: "CollabEdit: Towards Non-destructive Collaborative Knowledge Editing"
+  year: 2024
