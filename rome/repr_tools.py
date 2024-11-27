@@ -8,9 +8,9 @@ from typing import List
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers.models.gptj.modeling_gptj import GPTJForCausalLM
 
 from util import nethook
-
 
 def get_reprs_at_word_tokens(
     model: AutoModelForCausalLM,
@@ -39,7 +39,6 @@ def get_reprs_at_word_tokens(
         track,
     )
 
-
 def get_words_idxs_in_templates(
     tok: AutoTokenizer, context_templates: str, words: str, subtoken: str
 ) -> int:
@@ -53,33 +52,47 @@ def get_words_idxs_in_templates(
         tmp.count("{}") == 1 for tmp in context_templates
     ), "We currently do not support multiple fill-ins for context"
 
+
+    prefixes_len, words_len, suffixes_len, inputs_len = [], [], [], []
+    for i, context in enumerate(context_templates):
+        prefix, suffix = context.split("{}")
+        prefix_len = len(tok.encode(prefix))
+        prompt_len = len(tok.encode(prefix + words[i]))
+        input_len = len(tok.encode(prefix + words[i] + suffix))
+        prefixes_len.append(prefix_len)
+        words_len.append(prompt_len - prefix_len)
+        suffixes_len.append(input_len - prompt_len)
+        inputs_len.append(input_len)
+
     # Compute prefixes and suffixes of the tokenized context
-    fill_idxs = [tmp.index("{}") for tmp in context_templates]
-    prefixes, suffixes = [
-        tmp[: fill_idxs[i]] for i, tmp in enumerate(context_templates)
-    ], [tmp[fill_idxs[i] + 2 :] for i, tmp in enumerate(context_templates)]
-    words = deepcopy(words)
-
-    # Pre-process tokens
-    for i, prefix in enumerate(prefixes):
-        if len(prefix) > 0:
-            assert prefix[-1] == " "
-            prefix = prefix[:-1]
-
-            prefixes[i] = prefix
-            words[i] = f" {words[i].strip()}"
-
-    # Tokenize to determine lengths
-    assert len(prefixes) == len(words) == len(suffixes)
-    n = len(prefixes)
-    batch_tok = tok([*prefixes, *words, *suffixes])
-    prefixes_tok, words_tok, suffixes_tok = [
-        batch_tok[i : i + n] for i in range(0, n * 3, n)
-    ]
-    prefixes_len, words_len, suffixes_len = [
-        [len(el) for el in tok_list]
-        for tok_list in [prefixes_tok, words_tok, suffixes_tok]
-    ]
+    # fill_idxs = [tmp.index("{}") for tmp in context_templates]
+    # prefixes, suffixes = [
+    #     tmp[: fill_idxs[i]] for i, tmp in enumerate(context_templates)
+    # ], [tmp[fill_idxs[i] + 2 :] for i, tmp in enumerate(context_templates)]
+    # words = deepcopy(words)
+    #
+    # # Pre-process tokens
+    # for i, prefix in enumerate(prefixes):
+    #     if len(prefix) > 0:
+    #         assert prefix[-1] == " "
+    #         prefix = prefix[:-1]
+    #
+    #         prefixes[i] = prefix
+    #         words[i] = f" {words[i].strip()}"
+    #
+    # # Tokenize to determine lengths
+    # assert len(prefixes) == len(words) == len(suffixes)
+    # n = len(prefixes)
+    # batch_tok = tok([*prefixes, *words, *suffixes])
+    # if 'input_ids' in batch_tok:
+    #     batch_tok = batch_tok['input_ids']
+    # prefixes_tok, words_tok, suffixes_tok = [
+    #     batch_tok[i : i + n] for i in range(0, n * 3, n)
+    # ]
+    # prefixes_len, words_len, suffixes_len = [
+    #     [len(el) for el in tok_list]
+    #     for tok_list in [prefixes_tok, words_tok, suffixes_tok]
+    # ]
 
     # Compute indices of last tokens
     if subtoken == "last" or subtoken == "first_after_last":
@@ -91,10 +104,10 @@ def get_words_idxs_in_templates(
             ]
             # If suffix is empty, there is no "first token after the last".
             # So, just return the last token of the word.
-            for i in range(n)
+            for i in range(len(context_templates))
         ]
     elif subtoken == "first":
-        return [[prefixes_len[i]] for i in range(n)]
+        return [[prefixes_len[i] - inputs_len[i]] for i in range(len(context_templates))]
     else:
         raise ValueError(f"Unknown subtoken type: {subtoken}")
 
@@ -102,8 +115,8 @@ def get_words_idxs_in_templates(
 def get_reprs_at_idxs(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
-    contexts: List[str],
-    idxs: List[List[int]],
+    contexts: List[str],#表示该知识的完整句子
+    idxs: List[List[int]],#被填入词的位置
     layer: int,
     module_template: str,
     track: str = "in",
@@ -115,24 +128,27 @@ def get_reprs_at_idxs(
 
     def _batch(n):
         for i in range(0, len(contexts), n):
-            yield contexts[i : i + n], idxs[i : i + n]
+            yield contexts[i : i + n], idxs[i : i + n]#将句子和被填词位置分块
 
     assert track in {"in", "out", "both"}
     both = track == "both"
     tin, tout = (
         (track == "in" or both),
         (track == "out" or both),
-    )
+    )#tin tout都是bool结构
     module_name = module_template.format(layer)
     to_return = {"in": [], "out": []}
 
     def _process(cur_repr, batch_idxs, key):
         nonlocal to_return
         cur_repr = cur_repr[0] if type(cur_repr) is tuple else cur_repr
+        if cur_repr.shape[0]!=len(batch_idxs):
+            cur_repr=cur_repr.transpose(0,1)
         for i, idx_list in enumerate(batch_idxs):
             to_return[key].append(cur_repr[i][idx_list].mean(0))
 
     for batch_contexts, batch_idxs in _batch(n=128):
+        #contexts_tok:[21 19]
         contexts_tok = tok(batch_contexts, padding=True, return_tensors="pt").to(
             next(model.parameters()).device
         )
@@ -147,6 +163,17 @@ def get_reprs_at_idxs(
                 model(**contexts_tok)
 
         if tin:
+            if isinstance(model, GPTJForCausalLM) and module_name == 'transformer.h.8':
+                with torch.no_grad():
+                    with nethook.Trace(
+                        module=model,
+                        layer=module_name + '.ln_1',
+                        retain_input=tin,
+                        retain_output=tout,
+                    ) as tr2:
+                        model(**contexts_tok)
+                tr.input = tr2.input
+
             _process(tr.input, batch_idxs, "in")
         if tout:
             _process(tr.output, batch_idxs, "out")
