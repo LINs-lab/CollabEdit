@@ -14,7 +14,7 @@ preferred-citation:
   - family-names: "Yin"
     given-names: "Jianwei"
   - family-names: "Lin"
-  given-names: "Tao"
-  journal: "arXiv preprint arXiv:2410.09508"
+    given-names: "Tao"
+  journal: "International Conference on Learning Representations (ICLR)"
   title: "CollabEdit: Towards Non-destructive Collaborative Knowledge Editing"
-  year: 2024
+  year: 2025

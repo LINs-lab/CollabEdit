@@ -195,8 +195,8 @@ We are grateful for the following awesome projects:
 @article{zheng2024collabedit,
   title={CollabEdit: Towards Non-destructive Collaborative Knowledge Editing},
   author={Zheng, Jiamu and Zhang, Jinghuai and Du, Tianyu and Zhang, Xuhong and Yin, Jianwei and Lin, Tao},
-  journal={arXiv preprint arXiv:2410.09508},
-  year={2024}
+  journal={International Conference on Learning Representations (ICLR)},
+  year={2025}
 }
 ```
 
