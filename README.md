@@ -1,7 +1,7 @@
 # CollabEdit: Towards Non-destructive Collaborative Knowledge Editing
 
-<h5 align="center"> If our project helps you, please give us a star ⭐ and cite our <a href="https://arxiv.org/abs/2410.09508">paper</a>!</h2>
-<h5 align="center">
+<h5 align="center"> If our project helps you, please give us a star ⭐ and cite our <a href="https://arxiv.org/abs/2410.09508">paper</a>!</h5>
+<h5 align="center"><img src="https://api.visitorbadge.io/api/visitors?path=https://github.com/LINs-lab/CollabEdit&label=Views&style=flat" alt="Visitors">&nbsp;•&nbsp;<img src="https://img.shields.io/github/stars/LINs-lab/CollabEdit?label=Stars" alt="Stars">&nbsp;•&nbsp;<img src="https://img.shields.io/github/forks/LINs-lab/CollabEdit?label=Forks" alt="Forks">&nbsp;•&nbsp;<a href="https://github.com/LINs-lab/CollabEdit/stargazers"><img src="https://img.shields.io/badge/⭐-Star-blue" alt="Star"></a>&nbsp;•&nbsp;<a href="https://arxiv.org/abs/2410.09508"><img src="https://img.shields.io/badge/📄-Paper-red" alt="Paper"></a></h5>
 
 ## Overview
 
@@ -199,4 +199,5 @@ We are grateful for the following awesome projects:
   year={2025}
 }
 ```
+
 
